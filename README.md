@@ -2,7 +2,7 @@
 
 **Pelvic Organ Prolapse: Bayesian Synthesis of Clinical Outcomes and Procedure Evidence**
 
-POP-SCOPE is a research calculator that organizes published outcomes after pelvic organ prolapse surgery. It displays estimates from selected studies and, when repeated results are available, reconstructed curves of cumulative failure. Each estimate remains linked to the operation, study population, outcome definition, and follow up reported by its source.
+POP-SCOPE is a calculator that organizes published outcomes after pelvic organ prolapse surgery. It displays estimates from selected studies and, when repeated results are available, reconstructed curves of cumulative failure. Each estimate remains linked to the operation, study population, outcome definition, and follow up reported by its source.
 
 ## Using the calculator
 
