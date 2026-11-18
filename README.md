@@ -29,4 +29,4 @@ The calculator is an exploratory research tool. It has not been validated for in
 
 ## Version and reproducibility
 
-Calculator release **v1.0.0** uses the R38 literature model. Published aggregate inputs, distributed draws, R and Stan scripts, and the recorded browser checks are available in [reproducibility](reproducibility/README.md). The [versioned snapshot](https://github.com/MattMartUniTO/POP-SCOPE/tree/v1.0.0) can be [downloaded as a ZIP](https://github.com/MattMartUniTO/POP-SCOPE/archive/refs/tags/v1.0.0.zip). No clinical patient records are included.
+Calculator release **v1.0.1** uses the R38 literature model. Published aggregate inputs, distributed draws, R and Stan scripts, and the recorded browser checks are available in [reproducibility](reproducibility/README.md). The [versioned snapshot](https://github.com/MattMartUniTO/POP-SCOPE/tree/v1.0.1) can be [downloaded as a ZIP](https://github.com/MattMartUniTO/POP-SCOPE/archive/refs/tags/v1.0.1.zip). No clinical patient records are included.

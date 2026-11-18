@@ -1,7 +1,8 @@
 {
-  "index.html": "7c8d2366b1495b0152827666a05aadacef8f30e468a46ef5f60fee1f268a9f87",
-  "README.md": "28172529fd8e6c418196891e6396adb2fa008c150813a34883023f1f018fb3ca",
-  "reproducibility/calculator_data/app_data.json": "3ab72f341cd8c0c2a7a0183a73745204161c2de06d81aeeddd697a77a7b2df5b",
+  ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+  "index.html": "0868cd203dcd15b5bad8a9bfecb2b8fd7942350ac4a89204b0b34a036f153fd9",
+  "README.md": "84ff54416b6be9494c8cdbb4cfbd7ee47de64758419d5f62af8f8fdd96267bef",
+  "reproducibility/calculator_data/app_data.json": "03c43d1935b4fdfcedb4c5a26e0572baf2f3c1dba8816a51be70f310469fd6f8",
   "reproducibility/calculator_data/horizon_draws_float32.bin.gz": "abd8d417a5cff74c01366e81900e909c1e148a92e883460b9af4fad74a81f9a3",
   "reproducibility/calculator_data/trajectory_draws_float32.bin.gz": "aaf6a7606c81a51d4ab9bc1a0b71d19fedf1de2ea74030887c4b903237776db2",
   "reproducibility/inputs/model_binomial.csv": "715cf4fa920bc92cb253dba0d1183a272445c9b3f14cebf405f21656fdb2dba4",
@@ -13,7 +14,7 @@
   "reproducibility/model/fit_pointwise_model.R": "6dd927105c80eae277860728354288c8ff1347bf3920a02f4ede7175c1b3ab54",
   "reproducibility/model/fit_trajectory_model.R": "fcda71810484c2118cb17b7dac96897e8c058fe39e00a4fed8d11f69c6ca6d50",
   "reproducibility/model/trajectory_piecewise_exponential.stan": "55cc266a969c3ef6b5280daaefd517107fb7c408bdc21bd7a6632e648a08277d",
-  "reproducibility/README.md": "c61186a558d543b5637872f9d82c861bc1fa28b7c9d3b9343c1a81ee36aa53ce",
+  "reproducibility/README.md": "8152d862400f07240cd6da11063252211a6b4f8a93f313057bf64797042caf49",
   "reproducibility/verification/calculator_verification.json": "0fd22a2a7eb227a9f0d9625b46c3beffa13fe3eba222acbbe59fa7d0277934d4",
   "reproducibility/verification/mobile_overlay.png": "ad439f46119be7b2431f2b1fecdd2fb8591f8ec02ae3f715c4eb0de84d5706fa",
   "reproducibility/verification/verify_calculator.cjs": "b457e6eaf397a1a3dae0911f4d8ad44db41a577a9fe5abc53134221e4596e065"

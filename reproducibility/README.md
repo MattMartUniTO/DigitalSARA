@@ -1,4 +1,4 @@
-# POP-SCOPE calculator v1.0.0
+# POP-SCOPE calculator v1.0.1
 
 Release date: 18 November 2026. Underlying evidence/model: R38, 28 October 2026.
 
@@ -33,4 +33,6 @@ The recorded run passed 48 checks, plus mobile width and seven-line overlay chec
 
 ## Version and integrity
 
-The annotated Git tag `v1.0.0` identifies this snapshot. The Git commit and SHA-256 manifest identify exact content. GitHub provides a downloadable source archive at the tag. No Zenodo or other archival DOI has been minted, and this release must not be described as having one. The Git archive is an identifiable snapshot; a separate archival repository deposit remains possible.
+The annotated Git tag `v1.0.1` identifies this snapshot. The Git commit and SHA-256 manifest identify exact content. GitHub provides a downloadable source archive at the tag. No Zenodo or other archival DOI has been minted, and this release must not be described as having one. The Git archive is an identifiable snapshot; a separate archival repository deposit remains possible.
+
+The .gitattributes file disables automatic newline conversion so that downloaded release files retain the exact bytes checked by SHA256SUMS.json.
