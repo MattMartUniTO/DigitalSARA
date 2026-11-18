@@ -6,7 +6,7 @@ POP-SCOPE is a calculator that organizes published outcomes after pelvic organ p
 
 ## Using the calculator
 
-1. Enter the available preoperative information, such as age, body mass index, POP-Q measurements, prolapse stage, and smoking status.
+1. Enter age, body mass index, the available POP-Q measurements, and current smoking status. Complete levator avulsion is optional.
 2. Select **Calculate** to view estimates for procedures and time points supported by the evidence.
 3. Open the Curves panel to view supported trajectories. The All Curves panel displays all seven curves together.
 
@@ -14,7 +14,7 @@ The calculator uses published aggregate results. It does not contain individual 
 
 ## Patient profile scenarios
 
-For supported estimates, the calculator can show an exploratory scenario based on published associations for body mass index, POP-Q Ba, age, prolapse stage, and current smoking. Other POP-Q points can be entered for clinical context, but they do not affect the calculation. An optional levator avulsion scenario applies evidence about anatomical recurrence to a clinical composite and should be interpreted separately.
+For supported estimates, the calculator can show an exploratory scenario based on published associations for body mass index, POP-Q Ba, age, and current smoking. Overall POP-Q stage is not used: its published association was imprecise and carries overlapping anatomical information with Ba. Other POP-Q points can be entered for clinical context, but they do not affect the calculation. An optional levator avulsion scenario applies evidence about anatomical recurrence to a clinical composite and should be interpreted separately.
 
 These scenarios are not calibrated predictions for an individual patient. They do not estimate the effect of a procedure for a particular patient and do not rank operations. They are intended for research and clinical discussion, alongside clinical judgment.
 
