@@ -26,3 +26,7 @@ These scenarios are not calibrated predictions for an individual patient. They d
 - An uncertainty interval describes uncertainty in the estimate; it does not show the range of outcomes expected for an individual patient.
 
 The calculator is an exploratory research tool. It has not been validated for individual clinical prediction or treatment selection and should not replace clinical judgment.
+
+## Version and reproducibility
+
+Calculator release **v1.0.0** uses the R38 literature model. Published aggregate inputs, distributed draws, R and Stan scripts, and the recorded browser checks are available in [reproducibility](reproducibility/README.md). The [versioned snapshot](https://github.com/MattMartUniTO/POP-SCOPE/tree/v1.0.0) can be [downloaded as a ZIP](https://github.com/MattMartUniTO/POP-SCOPE/archive/refs/tags/v1.0.0.zip). No clinical patient records are included.

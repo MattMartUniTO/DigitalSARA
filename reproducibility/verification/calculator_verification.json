@@ -1,0 +1,292 @@
+{
+  "checks": [
+    {
+      "name": "No stage input",
+      "pass": true
+    },
+    {
+      "name": "Reference profile accepted",
+      "pass": true
+    },
+    {
+      "name": "Reference profile has exactly zero shift",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: MENEFEE_2024::MITT::NTR 12",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: MENEFEE_2024::MITT::NTR 24",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: MENEFEE_2024::MITT::NTR 36",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: MENEFEE_2024::MITT::NTR 60",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: MENEFEE_2024::MITT::SCP 12",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: MENEFEE_2024::MITT::SCP 24",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: MENEFEE_2024::MITT::SCP 36",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: MENEFEE_2024::MITT::SCP 60",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: MENEFEE_2024::MITT::TVM 12",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: MENEFEE_2024::MITT::TVM 24",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: MENEFEE_2024::MITT::TVM 36",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: MENEFEE_2024::MITT::TVM 60",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: OPTIMAL_2018::SSLF 12",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: OPTIMAL_2018::SSLF 24",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: OPTIMAL_2018::SSLF 36",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: OPTIMAL_2018::SSLF 60",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: OPTIMAL_2018::ULS 12",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: OPTIMAL_2018::ULS 24",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: OPTIMAL_2018::ULS 36",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: OPTIMAL_2018::ULS 60",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: SUPeR_2021::SSH_graft 12",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: SUPeR_2021::SSH_graft 24",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: SUPeR_2021::SSH_graft 36",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: SUPeR_2021::SSH_graft 60",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: SUPeR_2021::VH_ULS 12",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: SUPeR_2021::VH_ULS 24",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: SUPeR_2021::VH_ULS 36",
+      "pass": true
+    },
+    {
+      "name": "Reference curve equals underlying source draws: SUPeR_2021::VH_ULS 60",
+      "pass": true
+    },
+    {
+      "name": "One predictor exact log odds shift: BMI",
+      "pass": true
+    },
+    {
+      "name": "One predictor exact odds multiplier: BMI",
+      "pass": true
+    },
+    {
+      "name": "One predictor exact log odds shift: Ba",
+      "pass": true
+    },
+    {
+      "name": "One predictor exact odds multiplier: Ba",
+      "pass": true
+    },
+    {
+      "name": "One predictor exact log odds shift: age_ge60",
+      "pass": true
+    },
+    {
+      "name": "One predictor exact odds multiplier: age_ge60",
+      "pass": true
+    },
+    {
+      "name": "One predictor exact log odds shift: smoking",
+      "pass": true
+    },
+    {
+      "name": "One predictor exact odds multiplier: smoking",
+      "pass": true
+    },
+    {
+      "name": "One predictor exact log odds shift: levator_avulsion",
+      "pass": true
+    },
+    {
+      "name": "One predictor exact odds multiplier: levator_avulsion",
+      "pass": true
+    },
+    {
+      "name": "Coefficient uncertainty mean and SD: BMI",
+      "pass": true,
+      "detail": {
+        "mean": 0.09518875265141638,
+        "expectedMean": 0.09531017980432493,
+        "sd": 0.03926603651994889,
+        "expectedSd": 0.03932415301715771
+      }
+    },
+    {
+      "name": "Coefficient uncertainty mean and SD: Ba",
+      "pass": true,
+      "detail": {
+        "mean": 0.20670261556316968,
+        "expectedMean": 0.20701416938432612,
+        "sd": 0.10074751344124626,
+        "expectedSd": 0.10089662685076436
+      }
+    },
+    {
+      "name": "Coefficient uncertainty mean and SD: age_ge60",
+      "pass": true,
+      "detail": {
+        "mean": 0.44989557691629284,
+        "expectedMean": 0.45107561936021673,
+        "sd": 0.38159166701403274,
+        "expectedSd": 0.3821564495339013
+      }
+    },
+    {
+      "name": "Coefficient uncertainty mean and SD: smoking",
+      "pass": true,
+      "detail": {
+        "mean": 1.0563008386521937,
+        "expectedMean": 1.0577902941478545,
+        "sd": 0.48164691741156046,
+        "expectedSd": 0.48235978874293006
+      }
+    },
+    {
+      "name": "Coefficient uncertainty mean and SD: levator_avulsion",
+      "pass": true,
+      "detail": {
+        "mean": 0.40482632437089766,
+        "expectedMean": 0.4054651081081644,
+        "sd": 0.20656422352961526,
+        "expectedSd": 0.2068699531164104
+      }
+    },
+    {
+      "name": "Context POP-Q points do not alter scenarios",
+      "pass": true
+    },
+    {
+      "name": "Clear resets required inputs",
+      "pass": true
+    }
+  ],
+  "coefficientChecks": [
+    {
+      "key": "BMI",
+      "mean": 0.09518875265141638,
+      "expectedMean": 0.09531017980432493,
+      "sd": 0.03926603651994889,
+      "expectedSd": 0.03932415301715771
+    },
+    {
+      "key": "Ba",
+      "mean": 0.20670261556316968,
+      "expectedMean": 0.20701416938432612,
+      "sd": 0.10074751344124626,
+      "expectedSd": 0.10089662685076436
+    },
+    {
+      "key": "age_ge60",
+      "mean": 0.44989557691629284,
+      "expectedMean": 0.45107561936021673,
+      "sd": 0.38159166701403274,
+      "expectedSd": 0.3821564495339013
+    },
+    {
+      "key": "smoking",
+      "mean": 1.0563008386521937,
+      "expectedMean": 1.0577902941478545,
+      "sd": 0.48164691741156046,
+      "expectedSd": 0.48235978874293006
+    },
+    {
+      "key": "levator_avulsion",
+      "mean": 0.40482632437089766,
+      "expectedMean": 0.4054651081081644,
+      "sd": 0.20656422352961526,
+      "expectedSd": 0.2068699531164104
+    }
+  ],
+  "drawMeta": {
+    "series_ids": [
+      "MENEFEE_2024::MITT::NTR",
+      "MENEFEE_2024::MITT::SCP",
+      "MENEFEE_2024::MITT::TVM",
+      "OPTIMAL_2018::SSLF",
+      "OPTIMAL_2018::ULS",
+      "SUPeR_2021::SSH_graft",
+      "SUPeR_2021::VH_ULS"
+    ],
+    "n_draws": 2000,
+    "n_months": 60,
+    "horizon_months": [
+      12,
+      24,
+      36,
+      60
+    ],
+    "layout": "Float32 little-endian; each R matrix in column-major order"
+  },
+  "eligiblePointEstimates": 4,
+  "mobile": {
+    "width": 390,
+    "documentWidth": 390,
+    "overlayLines": 7
+  },
+  "browserErrors": [],
+  "browser": "157.0.4341.60",
+  "timestamp": "2026-11-18T18:35:48.107Z"
+}

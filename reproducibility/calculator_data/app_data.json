@@ -1,0 +1,3012 @@
+{
+  "model_version": "POP-SCOPE R38 · calculator v1.0.0 · 2026-11-18",
+  "points": [
+    {
+      "observation_id": "OBS-0002",
+      "study_id": "SAVEU_2019",
+      "technique_arm_id": "SAVEU_2019::arm1",
+      "technique_id": "VH_ULS",
+      "procedure_as_reported": "VH_ULS",
+      "endpoint_class": "clinical_composite",
+      "endpoint_as_reported": "25/102 is the complement of the source-reported 77/102 composite successes after vaginal hysterectomy plus uterosacral ligament suspension.",
+      "event_label": "failure",
+      "events": 25,
+      "denominator": 102,
+      "time_months": 60,
+      "analysis_population": "Keep as VH+ULS; not isolated ULS.",
+      "posterior_median": 0.245933993140952,
+      "lower95": 0.169530880086776,
+      "upper95": 0.334895025355516,
+      "source_file": "bmj.l5149.full.pdf",
+      "source_location": "PDF p.1 abstract; p.2 outcome definition",
+      "interpretation_limit": "25/102 is the complement of the source-reported 77/102 composite successes after vaginal hysterectomy plus uterosacral ligament suspension.",
+      "profileEligible": true
+    },
+    {
+      "observation_id": "OBS-0003",
+      "study_id": "SAVEU_2019",
+      "technique_arm_id": "SAVEU_2019::arm2",
+      "technique_id": "SSH_native",
+      "procedure_as_reported": "SSH_native",
+      "endpoint_class": "clinical_composite",
+      "endpoint_as_reported": "13/102 is the complement of the source-reported 89/102 composite successes after native sacrospinous hysteropexy.",
+      "event_label": "failure",
+      "events": 13,
+      "denominator": 102,
+      "time_months": 60,
+      "analysis_population": "Technique-specific arm as reported; composite endpoint only.",
+      "posterior_median": 0.128677715425363,
+      "lower95": 0.0733650890407228,
+      "upper95": 0.202300187996156,
+      "source_file": "bmj.l5149.full.pdf",
+      "source_location": "PDF p.1 abstract; p.2 outcome definition",
+      "interpretation_limit": "13/102 is the complement of the source-reported 89/102 composite successes after native sacrospinous hysteropexy.",
+      "profileEligible": true
+    },
+    {
+      "observation_id": "OBS-0004",
+      "study_id": "SAM_2023",
+      "technique_arm_id": "SAM_2023::arm1",
+      "technique_id": "SSH_native",
+      "procedure_as_reported": "Sacrospinous hysteropexy; posterior unilateral right sacrospinous fixation with two nonabsorbable sutures",
+      "endpoint_class": "clinical_composite",
+      "endpoint_as_reported": "Primary clinical composite failure at 24 months",
+      "event_label": "failure",
+      "events": 45,
+      "denominator": 196,
+      "time_months": 24,
+      "analysis_population": "Multicentre randomized noninferiority trial; as-randomized primary outcome population",
+      "posterior_median": 0.230052635269302,
+      "lower95": 0.174952989552893,
+      "upper95": 0.29214819754582,
+      "source_file": "Enklaar2023_Manchester_vs_SSH.pdf",
+      "source_location": "JAMA 2023, Table 2 and Results; Supplement 3 eTable 3 for subgroup results",
+      "interpretation_limit": "Failure if any of: prolapse beyond hymen in any compartment, bothersome bulge symptoms, or prolapse retreatment (pessary or surgery). Source reports success difference, not a primary adjusted OR/SE.",
+      "profileEligible": true
+    },
+    {
+      "observation_id": "OBS-0005",
+      "study_id": "SAM_2023",
+      "technique_arm_id": "SAM_2023::arm2",
+      "technique_id": "Manchester",
+      "procedure_as_reported": "Modified Manchester procedure; cervical amputation with extraperitoneal uterosacral and anterior cardinal plication",
+      "endpoint_class": "clinical_composite",
+      "endpoint_as_reported": "Primary clinical composite failure at 24 months",
+      "event_label": "failure",
+      "events": 25,
+      "denominator": 197,
+      "time_months": 24,
+      "analysis_population": "Multicentre randomized noninferiority trial; as-randomized primary outcome population",
+      "posterior_median": 0.127537372807484,
+      "lower95": 0.0859441910133629,
+      "upper95": 0.178723434975417,
+      "source_file": "Enklaar2023_Manchester_vs_SSH.pdf",
+      "source_location": "JAMA 2023, Table 2 and Results; Supplement 3 eTable 3 for subgroup results",
+      "interpretation_limit": "Failure if any of: prolapse beyond hymen in any compartment, bothersome bulge symptoms, or prolapse retreatment (pessary or surgery). Source reports success difference, not a primary adjusted OR/SE.",
+      "profileEligible": true
+    },
+    {
+      "observation_id": "OBS-0008",
+      "study_id": "SALTO2_2023",
+      "technique_arm_id": "SALTO2_2023::arm1",
+      "technique_id": "SCP_laparoscopic",
+      "procedure_as_reported": "SCP_laparoscopic",
+      "endpoint_class": "apical_composite",
+      "endpoint_as_reported": "Apical-compartment composite failure at 12 months, derived as the complement of reported success in the randomized cohort.",
+      "event_label": "failure",
+      "events": 3,
+      "denominator": 28,
+      "time_months": 12,
+      "analysis_population": "Apical composite only; not a global composite.",
+      "posterior_median": 0.111966693399342,
+      "lower95": 0.0311165503915101,
+      "upper95": 0.259070821391,
+      "source_file": "SALTO2_2023_SCPvsSSLF.pdf",
+      "source_location": "PDF p.7, Table 3",
+      "interpretation_limit": "Apical-compartment composite failure at 12 months, derived as the complement of reported success in the randomized cohort.",
+      "profileEligible": false
+    },
+    {
+      "observation_id": "OBS-0009",
+      "study_id": "SALTO2_2023",
+      "technique_arm_id": "SALTO2_2023::arm2",
+      "technique_id": "SSLF_native",
+      "procedure_as_reported": "SSLF_native",
+      "endpoint_class": "apical_composite",
+      "endpoint_as_reported": "Apical-compartment composite failure at 12 months, derived as the complement of reported success in the randomized cohort.",
+      "event_label": "failure",
+      "events": 4,
+      "denominator": 29,
+      "time_months": 12,
+      "analysis_population": "Apical composite only; native SSLF.",
+      "posterior_median": 0.142188770243401,
+      "lower95": 0.0484045352159384,
+      "upper95": 0.295364773492427,
+      "source_file": "SALTO2_2023_SCPvsSSLF.pdf",
+      "source_location": "PDF p.7, Table 3",
+      "interpretation_limit": "Apical-compartment composite failure at 12 months, derived as the complement of reported success in the randomized cohort.",
+      "profileEligible": false
+    },
+    {
+      "observation_id": "OBS-0010",
+      "study_id": "LAVA_2020",
+      "technique_arm_id": "LAVA_2020::arm1",
+      "technique_id": "LSH_laparoscopic",
+      "procedure_as_reported": "LSH_laparoscopic",
+      "endpoint_class": "apical_composite",
+      "endpoint_as_reported": "Apical-specific surgical failure at 12 months; ITT-LOCF analysis.",
+      "event_label": "failure",
+      "events": 1,
+      "denominator": 64,
+      "time_months": 12,
+      "analysis_population": "Apical endpoint only; preserve ITT-LOCF denominator.",
+      "posterior_median": 0.0183858871223483,
+      "lower95": 0.00169110311835933,
+      "upper95": 0.0706998556085789,
+      "source_file": "LAVA_vanIJsselmuiden2020_LSHvsSSH.pdf",
+      "source_location": "PDF p.7, Table 2",
+      "interpretation_limit": "Apical-specific surgical failure at 12 months; ITT-LOCF analysis.",
+      "profileEligible": false
+    },
+    {
+      "observation_id": "OBS-0011",
+      "study_id": "LAVA_2020",
+      "technique_arm_id": "LAVA_2020::arm2",
+      "technique_id": "SSH_native",
+      "procedure_as_reported": "SSH_native",
+      "endpoint_class": "apical_composite",
+      "endpoint_as_reported": "Apical-specific surgical failure at 12 months; ITT-LOCF analysis.",
+      "event_label": "failure",
+      "events": 2,
+      "denominator": 61,
+      "time_months": 12,
+      "analysis_population": "Apical endpoint only; native SSH.",
+      "posterior_median": 0.0354708577583524,
+      "lower95": 0.00687474684410714,
+      "upper95": 0.101035719319617,
+      "source_file": "LAVA_vanIJsselmuiden2020_LSHvsSSH.pdf",
+      "source_location": "PDF p.7, Table 2",
+      "interpretation_limit": "Apical-specific surgical failure at 12 months; ITT-LOCF analysis.",
+      "profileEligible": false
+    },
+    {
+      "observation_id": "OBS-0012",
+      "study_id": "Gomaa_2022",
+      "technique_arm_id": "Gomaa_2022::arm1",
+      "technique_id": "ASH_abdominal",
+      "procedure_as_reported": "ASH_abdominal",
+      "endpoint_class": "apical_anatomical",
+      "endpoint_as_reported": "Anatomical recurrent uterine/apical prolapse at the final 12-month column.",
+      "event_label": "failure",
+      "events": 2,
+      "denominator": 37,
+      "time_months": 12,
+      "analysis_population": "Anatomical endpoint; not a clinical composite.",
+      "posterior_median": 0.0582696986784677,
+      "lower95": 0.0114016267908957,
+      "upper95": 0.162290208518363,
+      "source_file": "Gomaa2022_ASHvsSSF.pdf",
+      "source_location": "PDF p.4, Table 4",
+      "interpretation_limit": "Anatomical recurrent uterine/apical prolapse at the final 12-month column.",
+      "profileEligible": false
+    },
+    {
+      "observation_id": "OBS-0013",
+      "study_id": "Gomaa_2022",
+      "technique_arm_id": "Gomaa_2022::arm2",
+      "technique_id": "SSH_native",
+      "procedure_as_reported": "SSH_native",
+      "endpoint_class": "apical_anatomical",
+      "endpoint_as_reported": "Anatomical recurrent uterine/apical prolapse at the final 12-month column.",
+      "event_label": "failure",
+      "events": 7,
+      "denominator": 35,
+      "time_months": 12,
+      "analysis_population": "Anatomical endpoint; native SSH.",
+      "posterior_median": 0.202893202998523,
+      "lower95": 0.0941906362241315,
+      "upper95": 0.353058741792328,
+      "source_file": "Gomaa2022_ASHvsSSF.pdf",
+      "source_location": "PDF p.4, Table 4",
+      "interpretation_limit": "Anatomical recurrent uterine/apical prolapse at the final 12-month column.",
+      "profileEligible": false
+    },
+    {
+      "observation_id": "ROSEY12_ROBOTIC",
+      "study_id": "ROSEY_HULCS_2026",
+      "technique_arm_id": "ROSEY_HULCS_2026::arm1",
+      "technique_id": "robotic_SCP",
+      "procedure_as_reported": "Robotic-assisted laparoscopic sacrocolpopexy",
+      "endpoint_class": "ROSEY_source_defined_composite_failure",
+      "endpoint_as_reported": "7/47 failures, exact complement of 40/47 source-reported successes.",
+      "event_label": "failure",
+      "events": 7,
+      "denominator": 47,
+      "time_months": 12,
+      "analysis_population": "Available primary-outcome cases; 47/58 randomized in this arm",
+      "posterior_median": 0.151459489834659,
+      "lower95": 0.069176362404492,
+      "upper95": 0.270318241052702,
+      "source_file": "https://www.sciencedirect.com/science/article/pii/S3050503825001682",
+      "source_location": "Results, 1-year primary outcome",
+      "interpretation_limit": "Composite: no apical descent >1/3 TVL; no anterior/posterior wall beyond hymen; no retreatment; no bothersome POP symptoms (PFDI-20). Available outcomes: 47/58 robotic SCP, 50/58 USLS; missing outcomes not imputed.",
+      "profileEligible": false
+    },
+    {
+      "observation_id": "ROSEY12_USLS",
+      "study_id": "ROSEY_HULCS_2026",
+      "technique_arm_id": "ROSEY_HULCS_2026::arm2",
+      "technique_id": "transvaginal_USLS",
+      "procedure_as_reported": "Transvaginal uterosacral ligament suspension",
+      "endpoint_class": "ROSEY_source_defined_composite_failure",
+      "endpoint_as_reported": "9/50 failures, exact complement of 41/50 source-reported successes.",
+      "event_label": "failure",
+      "events": 9,
+      "denominator": 50,
+      "time_months": 12,
+      "analysis_population": "Available primary-outcome cases; 50/58 randomized in this arm",
+      "posterior_median": 0.182155044522675,
+      "lower95": 0.0929761099890942,
+      "upper95": 0.302804778192621,
+      "source_file": "https://www.sciencedirect.com/science/article/pii/S3050503825001682",
+      "source_location": "Results, 1-year primary outcome",
+      "interpretation_limit": "Composite: no apical descent >1/3 TVL; no anterior/posterior wall beyond hymen; no retreatment; no bothersome POP symptoms (PFDI-20). Available outcomes: 47/58 robotic SCP, 50/58 USLS; missing outcomes not imputed.",
+      "profileEligible": false
+    },
+    {
+      "observation_id": "OBS-KHIN26-COMPOSITE-ABS",
+      "study_id": "Khin_2026",
+      "technique_arm_id": "Khin_2026::arm1",
+      "technique_id": "SSLF_absorbable_suture",
+      "procedure_as_reported": "Vaginal SSLF with absorbable suture",
+      "endpoint_class": "source_defined_composite_failure_secondary",
+      "endpoint_as_reported": "Secondary composite failure at 12 months",
+      "event_label": "failure",
+      "events": 10,
+      "denominator": 23,
+      "time_months": 12,
+      "analysis_population": "12-month completers; 23/25 absorbable arm; 49 randomized overall",
+      "posterior_median": 0.435735640364003,
+      "lower95": 0.24987821382033,
+      "upper95": 0.634994946682819,
+      "source_file": "s00192-025-06439-w.pdf",
+      "source_location": "Results, Table 4",
+      "interpretation_limit": "Secondary composite failure: prolapse symptoms, recurrence beyond hymen in any compartment, apical descent to at least one-half total vaginal length, reoperation, or pessary use. Suture material is randomized within SSLF; this is not a comparison of suspension techniques.",
+      "profileEligible": false
+    },
+    {
+      "observation_id": "OBS-KHIN26-COMPOSITE-PERM",
+      "study_id": "Khin_2026",
+      "technique_arm_id": "Khin_2026::arm2",
+      "technique_id": "SSLF_permanent_suture",
+      "procedure_as_reported": "Vaginal SSLF with permanent suture",
+      "endpoint_class": "source_defined_composite_failure_secondary",
+      "endpoint_as_reported": "Secondary composite failure at 12 months",
+      "event_label": "failure",
+      "events": 9,
+      "denominator": 18,
+      "time_months": 12,
+      "analysis_population": "12-month completers; 18/24 permanent arm; 49 randomized overall",
+      "posterior_median": 0.5,
+      "lower95": 0.283571221841736,
+      "upper95": 0.716428778158264,
+      "source_file": "s00192-025-06439-w.pdf",
+      "source_location": "Results, Table 4",
+      "interpretation_limit": "Secondary composite failure: prolapse symptoms, recurrence beyond hymen in any compartment, apical descent to at least one-half total vaginal length, reoperation, or pessary use. Suture material is randomized within SSLF; this is not a comparison of suspension techniques.",
+      "profileEligible": false
+    },
+    {
+      "observation_id": "OBS-VEISI26-APICAL-FAIL-ASH",
+      "study_id": "Veisi_2026",
+      "technique_arm_id": "Veisi_2026::arm1",
+      "technique_id": "ASH_abdominal",
+      "procedure_as_reported": "Open abdominal mesh sacrohysteropexy",
+      "endpoint_class": "apical_surgical_failure",
+      "endpoint_as_reported": "Failure of 12-month apical surgical success",
+      "event_label": "failure",
+      "events": 5,
+      "denominator": 30,
+      "time_months": 12,
+      "analysis_population": "All randomized participants; 30/arm; no 12-month losses reported",
+      "posterior_median": 0.170437152989054,
+      "lower95": 0.066573953567455,
+      "upper95": 0.327427751663461,
+      "source_file": "s00192-026-06706-4.pdf",
+      "source_location": "Methods and Results, Table 2",
+      "interpretation_limit": "Failure is the arithmetic complement of reported apical surgical success. Success was point C at or above the prespecified support threshold (C <U+2264> <U+2212>2 cm) plus no vaginal bulge. This is apical-specific, not a global recurrence composite.",
+      "profileEligible": false
+    },
+    {
+      "observation_id": "OBS-VEISI26-APICAL-FAIL-ULS",
+      "study_id": "Veisi_2026",
+      "technique_arm_id": "Veisi_2026::arm2",
+      "technique_id": "ULS_abdominal_high",
+      "procedure_as_reported": "Open abdominal high uterosacral ligament suspension",
+      "endpoint_class": "apical_surgical_failure",
+      "endpoint_as_reported": "Failure of 12-month apical surgical success",
+      "event_label": "failure",
+      "events": 3,
+      "denominator": 30,
+      "time_months": 12,
+      "analysis_population": "All randomized participants; 30/arm; no 12-month losses reported",
+      "posterior_median": 0.104585754591828,
+      "lower95": 0.0289806190327265,
+      "upper95": 0.243401608984927,
+      "source_file": "s00192-026-06706-4.pdf",
+      "source_location": "Methods and Results, Table 2",
+      "interpretation_limit": "Failure is the arithmetic complement of reported apical surgical success. Success was point C at or above the prespecified support threshold (C <U+2264> <U+2212>2 cm) plus no vaginal bulge. This is apical-specific, not a global recurrence composite.",
+      "profileEligible": false
+    }
+  ],
+  "curves": [
+    {
+      "study_id": "MENEFEE_2024",
+      "technique_arm_id": "MENEFEE_2024::MITT::NTR",
+      "technique_id": "NTR_mixed",
+      "procedure_as_reported": "Native-tissue repair group; USLS or SSLF, pooled as reported",
+      "endpoint_class": "source_defined_clinical_composite_failure",
+      "endpoint_definition": "Source-defined time to surgical treatment failure: retreatment for prolapse, prolapse beyond the hymen, or prolapse symptoms.",
+      "analysis_population": "MITT",
+      "source_file": "Menefee2024_Supplement2.pdf",
+      "source_location": "Supplement 2, eTable 5",
+      "curve_status": "Bayesian reconstructed; between visits and before first observed visit model-derived using piecewise hazard; no extrapolation beyond 60 months",
+      "monthly": [
+        {
+          "posterior_median": 0.0212152648196567,
+          "lower95": 0.0155661186806616,
+          "upper95": 0.028672923732876
+        },
+        {
+          "posterior_median": 0.0419804421774637,
+          "lower95": 0.0308899333104663,
+          "upper95": 0.056523710908971
+        },
+        {
+          "posterior_median": 0.0623050807981365,
+          "lower95": 0.0459752156230287,
+          "upper95": 0.0835759345871556
+        },
+        {
+          "posterior_median": 0.0821985268276665,
+          "lower95": 0.0608256786407106,
+          "upper95": 0.109852491917777
+        },
+        {
+          "posterior_median": 0.101669928131082,
+          "lower95": 0.0754449775885269,
+          "upper95": 0.135375623522935
+        },
+        {
+          "posterior_median": 0.120728238499033,
+          "lower95": 0.089836710793826,
+          "upper95": 0.160166932321063
+        },
+        {
+          "posterior_median": 0.139382221765126,
+          "lower95": 0.104004420571966,
+          "upper95": 0.18424740181176
+        },
+        {
+          "posterior_median": 0.15764045583592,
+          "lower95": 0.117951594098203,
+          "upper95": 0.207637413836338
+        },
+        {
+          "posterior_median": 0.17551133663541,
+          "lower95": 0.13168166426601,
+          "upper95": 0.230356765829125
+        },
+        {
+          "posterior_median": 0.193003081965844,
+          "lower95": 0.145198010532031,
+          "upper95": 0.252424687574121
+        },
+        {
+          "posterior_median": 0.210123735286615,
+          "lower95": 0.158503959747891,
+          "upper95": 0.273859857481195
+        },
+        {
+          "posterior_median": 0.226881169412996,
+          "lower95": 0.171602786979042,
+          "upper95": 0.29468041839559
+        },
+        {
+          "posterior_median": 0.237724576216824,
+          "lower95": 0.182856292067803,
+          "upper95": 0.305182813887148
+        },
+        {
+          "posterior_median": 0.248398814466869,
+          "lower95": 0.192935707025872,
+          "upper95": 0.315612842911869
+        },
+        {
+          "posterior_median": 0.259065709889448,
+          "lower95": 0.202849439776783,
+          "upper95": 0.325508505779057
+        },
+        {
+          "posterior_median": 0.269239538654741,
+          "lower95": 0.212099846902219,
+          "upper95": 0.336959352170019
+        },
+        {
+          "posterior_median": 0.279674665865045,
+          "lower95": 0.221003206988629,
+          "upper95": 0.347755820741721
+        },
+        {
+          "posterior_median": 0.290009619282594,
+          "lower95": 0.229552115198555,
+          "upper95": 0.35912042998499
+        },
+        {
+          "posterior_median": 0.299884321412962,
+          "lower95": 0.238206535856001,
+          "upper95": 0.37033173040612
+        },
+        {
+          "posterior_median": 0.309819998748543,
+          "lower95": 0.246416722966837,
+          "upper95": 0.381744443855548
+        },
+        {
+          "posterior_median": 0.319485548220159,
+          "lower95": 0.25392316509449,
+          "upper95": 0.392942289313
+        },
+        {
+          "posterior_median": 0.328797393315122,
+          "lower95": 0.261718564853335,
+          "upper95": 0.403366542272963
+        },
+        {
+          "posterior_median": 0.338051121563188,
+          "lower95": 0.269361942960255,
+          "upper95": 0.414570881068656
+        },
+        {
+          "posterior_median": 0.347347528863791,
+          "lower95": 0.276943164303927,
+          "upper95": 0.425511267628995
+        },
+        {
+          "posterior_median": 0.354536403634124,
+          "lower95": 0.284184694442864,
+          "upper95": 0.431684670137562
+        },
+        {
+          "posterior_median": 0.361635117754364,
+          "lower95": 0.291606117360617,
+          "upper95": 0.43743325998659
+        },
+        {
+          "posterior_median": 0.368667425407147,
+          "lower95": 0.299103975700021,
+          "upper95": 0.443349838920657
+        },
+        {
+          "posterior_median": 0.375550885917722,
+          "lower95": 0.305330521962642,
+          "upper95": 0.449748602160458
+        },
+        {
+          "posterior_median": 0.382450517869392,
+          "lower95": 0.311538171486112,
+          "upper95": 0.456262625089552
+        },
+        {
+          "posterior_median": 0.388957059512251,
+          "lower95": 0.317272014017969,
+          "upper95": 0.462979598330193
+        },
+        {
+          "posterior_median": 0.395775421386585,
+          "lower95": 0.322767677478461,
+          "upper95": 0.469771871890226
+        },
+        {
+          "posterior_median": 0.402421493746033,
+          "lower95": 0.328435056849665,
+          "upper95": 0.477082005988069
+        },
+        {
+          "posterior_median": 0.408670203768389,
+          "lower95": 0.333899166992885,
+          "upper95": 0.484376909992119
+        },
+        {
+          "posterior_median": 0.414929114055272,
+          "lower95": 0.338875779099243,
+          "upper95": 0.491839353451433
+        },
+        {
+          "posterior_median": 0.421257261440461,
+          "lower95": 0.343932232154012,
+          "upper95": 0.499288678954841
+        },
+        {
+          "posterior_median": 0.427435913346651,
+          "lower95": 0.348528485007724,
+          "upper95": 0.506703334974612
+        },
+        {
+          "posterior_median": 0.432455462467457,
+          "lower95": 0.353834514507988,
+          "upper95": 0.511673380634914
+        },
+        {
+          "posterior_median": 0.437717676599017,
+          "lower95": 0.358781615001436,
+          "upper95": 0.516465296880956
+        },
+        {
+          "posterior_median": 0.442732777464066,
+          "lower95": 0.363814180298344,
+          "upper95": 0.521267929042231
+        },
+        {
+          "posterior_median": 0.447662554995903,
+          "lower95": 0.368629069701739,
+          "upper95": 0.526629805305254
+        },
+        {
+          "posterior_median": 0.452555794436062,
+          "lower95": 0.372817734328235,
+          "upper95": 0.531557555301668
+        },
+        {
+          "posterior_median": 0.457246204812964,
+          "lower95": 0.377153076521116,
+          "upper95": 0.536393604616403
+        },
+        {
+          "posterior_median": 0.46197256272514,
+          "lower95": 0.381591049717625,
+          "upper95": 0.541418257721692
+        },
+        {
+          "posterior_median": 0.466876679703536,
+          "lower95": 0.385963316167161,
+          "upper95": 0.546888909397794
+        },
+        {
+          "posterior_median": 0.471408422296306,
+          "lower95": 0.390040661516129,
+          "upper95": 0.55236839452552
+        },
+        {
+          "posterior_median": 0.476024279471848,
+          "lower95": 0.393848793442824,
+          "upper95": 0.557646311220646
+        },
+        {
+          "posterior_median": 0.480560461827392,
+          "lower95": 0.397343698416494,
+          "upper95": 0.562835097679951
+        },
+        {
+          "posterior_median": 0.485040312925851,
+          "lower95": 0.400495168845127,
+          "upper95": 0.568439253042269
+        },
+        {
+          "posterior_median": 0.489400460420248,
+          "lower95": 0.405257175317345,
+          "upper95": 0.572875756112193
+        },
+        {
+          "posterior_median": 0.493647251694632,
+          "lower95": 0.409026954213341,
+          "upper95": 0.577710426022474
+        },
+        {
+          "posterior_median": 0.497904223395216,
+          "lower95": 0.412897732579266,
+          "upper95": 0.582976768595468
+        },
+        {
+          "posterior_median": 0.502210469826646,
+          "lower95": 0.416282150172234,
+          "upper95": 0.587502858616956
+        },
+        {
+          "posterior_median": 0.506656726274779,
+          "lower95": 0.419720987649774,
+          "upper95": 0.592158368560027
+        },
+        {
+          "posterior_median": 0.510831650634853,
+          "lower95": 0.423136968473248,
+          "upper95": 0.596810316768429
+        },
+        {
+          "posterior_median": 0.514875415604151,
+          "lower95": 0.426115123088057,
+          "upper95": 0.602153023530704
+        },
+        {
+          "posterior_median": 0.519085615030434,
+          "lower95": 0.429129100000894,
+          "upper95": 0.607340498557049
+        },
+        {
+          "posterior_median": 0.523359729044306,
+          "lower95": 0.431882834316609,
+          "upper95": 0.612372680603161
+        },
+        {
+          "posterior_median": 0.527354750419985,
+          "lower95": 0.43451062921433,
+          "upper95": 0.617210197837572
+        },
+        {
+          "posterior_median": 0.531446184659374,
+          "lower95": 0.437247457722152,
+          "upper95": 0.622405838209173
+        },
+        {
+          "posterior_median": 0.535538744926601,
+          "lower95": 0.439207202498108,
+          "upper95": 0.627690532413828
+        }
+      ],
+      "observed_visits": [
+        {
+          "time_months": 12,
+          "risk": 0.24,
+          "lower95": 0.18,
+          "upper95": 0.31,
+          "events": null,
+          "denominator": null,
+          "source_location": "Supplement 2, eTable 5"
+        },
+        {
+          "time_months": 24,
+          "risk": 0.35,
+          "lower95": 0.27,
+          "upper95": 0.44,
+          "events": null,
+          "denominator": null,
+          "source_location": "Supplement 2, eTable 5"
+        },
+        {
+          "time_months": 36,
+          "risk": 0.44,
+          "lower95": 0.35,
+          "upper95": 0.54,
+          "events": null,
+          "denominator": null,
+          "source_location": "Supplement 2, eTable 5"
+        },
+        {
+          "time_months": 48,
+          "risk": 0.48,
+          "lower95": 0.38,
+          "upper95": 0.58,
+          "events": null,
+          "denominator": null,
+          "source_location": "Supplement 2, eTable 5"
+        },
+        {
+          "time_months": 60,
+          "risk": 0.54,
+          "lower95": 0.43,
+          "upper95": 0.64,
+          "events": null,
+          "denominator": null,
+          "source_location": "Supplement 2, eTable 5"
+        }
+      ]
+    },
+    {
+      "study_id": "MENEFEE_2024",
+      "technique_arm_id": "MENEFEE_2024::MITT::SCP",
+      "technique_id": "SCP_route_mixed",
+      "procedure_as_reported": "Sacrocolpopexy; open, laparoscopic, or robotic route pooled as reported",
+      "endpoint_class": "source_defined_clinical_composite_failure",
+      "endpoint_definition": "Source-defined time to surgical treatment failure: retreatment for prolapse, prolapse beyond the hymen, or prolapse symptoms.",
+      "analysis_population": "MITT",
+      "source_file": "Menefee2024_Supplement2.pdf",
+      "source_location": "Supplement 2, eTable 5",
+      "curve_status": "Bayesian reconstructed; between visits and before first observed visit model-derived using piecewise hazard; no extrapolation beyond 60 months",
+      "monthly": [
+        {
+          "posterior_median": 0.0115723701374082,
+          "lower95": 0.00807283164863427,
+          "upper95": 0.0166654940742682
+        },
+        {
+          "posterior_median": 0.0230108205241913,
+          "lower95": 0.0160804926858475,
+          "upper95": 0.0330532494539086
+        },
+        {
+          "posterior_median": 0.0343169009292728,
+          "lower95": 0.0240235092230236,
+          "upper95": 0.0491678947915536
+        },
+        {
+          "posterior_median": 0.0454921431870766,
+          "lower95": 0.0319024031243378,
+          "upper95": 0.0650139816010511
+        },
+        {
+          "posterior_median": 0.0565380614050718,
+          "lower95": 0.0397176920410438,
+          "upper95": 0.0805959855430204
+        },
+        {
+          "posterior_median": 0.0674561521689153,
+          "lower95": 0.0474698894454834,
+          "upper95": 0.0959183076889837
+        },
+        {
+          "posterior_median": 0.0782478947452209,
+          "lower95": 0.0551595046648229,
+          "upper95": 0.11098527576443
+        },
+        {
+          "posterior_median": 0.0889147512819815,
+          "lower95": 0.0627870429145157,
+          "upper95": 0.125801145371165
+        },
+        {
+          "posterior_median": 0.0994581670066724,
+          "lower95": 0.0703530053314961,
+          "upper95": 0.140370101189284
+        },
+        {
+          "posterior_median": 0.109879570422062,
+          "lower95": 0.0778578890071038,
+          "upper95": 0.154696258159121
+        },
+        {
+          "posterior_median": 0.120180373499754,
+          "lower95": 0.085302187019744,
+          "upper95": 0.168783662643494
+        },
+        {
+          "posterior_median": 0.130361971871497,
+          "lower95": 0.0926863884672827,
+          "upper95": 0.182636293570586
+        },
+        {
+          "posterior_median": 0.137273899315489,
+          "lower95": 0.0990275551722019,
+          "upper95": 0.18927334715994
+        },
+        {
+          "posterior_median": 0.144182970950103,
+          "lower95": 0.105054543984047,
+          "upper95": 0.195628910743126
+        },
+        {
+          "posterior_median": 0.150716020070721,
+          "lower95": 0.111106201767034,
+          "upper95": 0.2027380306736
+        },
+        {
+          "posterior_median": 0.157186134292596,
+          "lower95": 0.116608017463053,
+          "upper95": 0.210203272425785
+        },
+        {
+          "posterior_median": 0.163741214398491,
+          "lower95": 0.122636117829225,
+          "upper95": 0.217663473439292
+        },
+        {
+          "posterior_median": 0.170187466715385,
+          "lower95": 0.127927431952888,
+          "upper95": 0.224686231440215
+        },
+        {
+          "posterior_median": 0.176812412065197,
+          "lower95": 0.132775047036312,
+          "upper95": 0.232482263789546
+        },
+        {
+          "posterior_median": 0.183099552561227,
+          "lower95": 0.137611606371883,
+          "upper95": 0.240716018575103
+        },
+        {
+          "posterior_median": 0.189386639591815,
+          "lower95": 0.142670633234741,
+          "upper95": 0.248817233496003
+        },
+        {
+          "posterior_median": 0.195689278124262,
+          "lower95": 0.14788182397401,
+          "upper95": 0.256475069978437
+        },
+        {
+          "posterior_median": 0.202107471614834,
+          "lower95": 0.152612332256037,
+          "upper95": 0.264453637665829
+        },
+        {
+          "posterior_median": 0.208195783140715,
+          "lower95": 0.157509536729181,
+          "upper95": 0.272616040945179
+        },
+        {
+          "posterior_median": 0.213320647703892,
+          "lower95": 0.161896303381282,
+          "upper95": 0.277442766072546
+        },
+        {
+          "posterior_median": 0.218079809736383,
+          "lower95": 0.166171601129869,
+          "upper95": 0.282630038710038
+        },
+        {
+          "posterior_median": 0.222833469359472,
+          "lower95": 0.170543223709553,
+          "upper95": 0.287922360726306
+        },
+        {
+          "posterior_median": 0.227575207848352,
+          "lower95": 0.174605110574315,
+          "upper95": 0.29316311462439
+        },
+        {
+          "posterior_median": 0.232252981433542,
+          "lower95": 0.178671208751102,
+          "upper95": 0.298328029770394
+        },
+        {
+          "posterior_median": 0.23719607375493,
+          "lower95": 0.182402815005452,
+          "upper95": 0.303310153103198
+        },
+        {
+          "posterior_median": 0.241941645053493,
+          "lower95": 0.186071072435128,
+          "upper95": 0.308539592188252
+        },
+        {
+          "posterior_median": 0.246632627950477,
+          "lower95": 0.189844000711435,
+          "upper95": 0.313970180692375
+        },
+        {
+          "posterior_median": 0.251168462790291,
+          "lower95": 0.193368473604224,
+          "upper95": 0.319566028588026
+        },
+        {
+          "posterior_median": 0.255576992642059,
+          "lower95": 0.196557071368687,
+          "upper95": 0.325616912487137
+        },
+        {
+          "posterior_median": 0.259880887212451,
+          "lower95": 0.20006951743854,
+          "upper95": 0.331453814834976
+        },
+        {
+          "posterior_median": 0.264523813475533,
+          "lower95": 0.203223745990601,
+          "upper95": 0.337109926391734
+        },
+        {
+          "posterior_median": 0.268288707157558,
+          "lower95": 0.206929870082692,
+          "upper95": 0.341061814542291
+        },
+        {
+          "posterior_median": 0.271852042267153,
+          "lower95": 0.210259468566985,
+          "upper95": 0.34518122077671
+        },
+        {
+          "posterior_median": 0.275486476079543,
+          "lower95": 0.21347492296541,
+          "upper95": 0.348653171514996
+        },
+        {
+          "posterior_median": 0.278912292144796,
+          "lower95": 0.216612866444837,
+          "upper95": 0.352692646838441
+        },
+        {
+          "posterior_median": 0.282682055739145,
+          "lower95": 0.219623909651868,
+          "upper95": 0.35727483370522
+        },
+        {
+          "posterior_median": 0.286191192945227,
+          "lower95": 0.222922917416029,
+          "upper95": 0.360753599388507
+        },
+        {
+          "posterior_median": 0.289777187202326,
+          "lower95": 0.225748279093087,
+          "upper95": 0.365186145946828
+        },
+        {
+          "posterior_median": 0.293491290147859,
+          "lower95": 0.228314373423092,
+          "upper95": 0.370247836399149
+        },
+        {
+          "posterior_median": 0.296961138573039,
+          "lower95": 0.230717717724036,
+          "upper95": 0.374293342052079
+        },
+        {
+          "posterior_median": 0.300533726740998,
+          "lower95": 0.233721795726199,
+          "upper95": 0.378556326647212
+        },
+        {
+          "posterior_median": 0.304074885033886,
+          "lower95": 0.236364670806827,
+          "upper95": 0.382858790439736
+        },
+        {
+          "posterior_median": 0.307445666979375,
+          "lower95": 0.238859192759298,
+          "upper95": 0.388239664294885
+        },
+        {
+          "posterior_median": 0.310923855862976,
+          "lower95": 0.241762220135323,
+          "upper95": 0.391699949401025
+        },
+        {
+          "posterior_median": 0.314300280210746,
+          "lower95": 0.24465219594453,
+          "upper95": 0.395755250633921
+        },
+        {
+          "posterior_median": 0.317907905445672,
+          "lower95": 0.247469268762113,
+          "upper95": 0.399938639344828
+        },
+        {
+          "posterior_median": 0.321285622642313,
+          "lower95": 0.24965647814366,
+          "upper95": 0.403917478227688
+        },
+        {
+          "posterior_median": 0.324777706410911,
+          "lower95": 0.251945991499945,
+          "upper95": 0.407923420691042
+        },
+        {
+          "posterior_median": 0.328143887073491,
+          "lower95": 0.254224827907402,
+          "upper95": 0.412175312929338
+        },
+        {
+          "posterior_median": 0.331475644779899,
+          "lower95": 0.256609707472938,
+          "upper95": 0.415968698906626
+        },
+        {
+          "posterior_median": 0.33467705893494,
+          "lower95": 0.258701168174903,
+          "upper95": 0.420303751647234
+        },
+        {
+          "posterior_median": 0.338107771453065,
+          "lower95": 0.260955659985697,
+          "upper95": 0.424844126480771
+        },
+        {
+          "posterior_median": 0.341202018328923,
+          "lower95": 0.26302285519721,
+          "upper95": 0.429906203399768
+        },
+        {
+          "posterior_median": 0.344473442204101,
+          "lower95": 0.264998662483369,
+          "upper95": 0.435381654237492
+        },
+        {
+          "posterior_median": 0.347623736340229,
+          "lower95": 0.266907204008729,
+          "upper95": 0.440400358406631
+        }
+      ],
+      "observed_visits": [
+        {
+          "time_months": 12,
+          "risk": 0.14,
+          "lower95": 0.1,
+          "upper95": 0.2,
+          "events": null,
+          "denominator": null,
+          "source_location": "Supplement 2, eTable 5"
+        },
+        {
+          "time_months": 24,
+          "risk": 0.21,
+          "lower95": 0.15,
+          "upper95": 0.29,
+          "events": null,
+          "denominator": null,
+          "source_location": "Supplement 2, eTable 5"
+        },
+        {
+          "time_months": 36,
+          "risk": 0.27,
+          "lower95": 0.2,
+          "upper95": 0.36,
+          "events": null,
+          "denominator": null,
+          "source_location": "Supplement 2, eTable 5"
+        },
+        {
+          "time_months": 48,
+          "risk": 0.3,
+          "lower95": 0.22,
+          "upper95": 0.4,
+          "events": null,
+          "denominator": null,
+          "source_location": "Supplement 2, eTable 5"
+        },
+        {
+          "time_months": 60,
+          "risk": 0.35,
+          "lower95": 0.26,
+          "upper95": 0.45,
+          "events": null,
+          "denominator": null,
+          "source_location": "Supplement 2, eTable 5"
+        }
+      ]
+    },
+    {
+      "study_id": "MENEFEE_2024",
+      "technique_arm_id": "MENEFEE_2024::MITT::TVM",
+      "technique_id": "TVM_transvaginal",
+      "procedure_as_reported": "Transvaginal mesh (Uphold LITE)",
+      "endpoint_class": "source_defined_clinical_composite_failure",
+      "endpoint_definition": "Source-defined time to surgical treatment failure: retreatment for prolapse, prolapse beyond the hymen, or prolapse symptoms.",
+      "analysis_population": "MITT",
+      "source_file": "Menefee2024_Supplement2.pdf",
+      "source_location": "Supplement 2, eTable 5",
+      "curve_status": "Bayesian reconstructed; between visits and before first observed visit model-derived using piecewise hazard; no extrapolation beyond 60 months",
+      "monthly": [
+        {
+          "posterior_median": 0.0121514831453036,
+          "lower95": 0.00823931887197596,
+          "upper95": 0.0177771438732735
+        },
+        {
+          "posterior_median": 0.0241553077479484,
+          "lower95": 0.0164107513684654,
+          "upper95": 0.0352382609022452
+        },
+        {
+          "posterior_median": 0.0360132680782275,
+          "lower95": 0.0245148568269634,
+          "upper95": 0.0523889691415945
+        },
+        {
+          "posterior_median": 0.0477271366033887,
+          "lower95": 0.0325521899764048,
+          "upper95": 0.0692347867730343
+        },
+        {
+          "posterior_median": 0.0592986642525739,
+          "lower95": 0.040523300975136,
+          "upper95": 0.0857811338807675
+        },
+        {
+          "posterior_median": 0.070729580678539,
+          "lower95": 0.0484287354485731,
+          "upper95": 0.10203333419538
+        },
+        {
+          "posterior_median": 0.0820215945161937,
+          "lower95": 0.0562690345265508,
+          "upper95": 0.117996616806734
+        },
+        {
+          "posterior_median": 0.0931763936379994,
+          "lower95": 0.0640447348803623,
+          "upper95": 0.133676117846407
+        },
+        {
+          "posterior_median": 0.104195645406264,
+          "lower95": 0.0717563687594949,
+          "upper95": 0.149076882140229
+        },
+        {
+          "posterior_median": 0.115080996922369,
+          "lower95": 0.0794044640280625,
+          "upper95": 0.164203864831433
+        },
+        {
+          "posterior_median": 0.125834075272973,
+          "lower95": 0.0869895442009386,
+          "upper95": 0.179061932974959
+        },
+        {
+          "posterior_median": 0.136456487773217,
+          "lower95": 0.0945121284795906,
+          "upper95": 0.193655867103412
+        },
+        {
+          "posterior_median": 0.143665978889879,
+          "lower95": 0.101505256185661,
+          "upper95": 0.199976539585446
+        },
+        {
+          "posterior_median": 0.15088134547981,
+          "lower95": 0.107912260321936,
+          "upper95": 0.206706150921446
+        },
+        {
+          "posterior_median": 0.157973034424043,
+          "lower95": 0.114271286800576,
+          "upper95": 0.213350232449395
+        },
+        {
+          "posterior_median": 0.165006876294623,
+          "lower95": 0.120821764486861,
+          "upper95": 0.220543856692766
+        },
+        {
+          "posterior_median": 0.172027840441225,
+          "lower95": 0.126933340873038,
+          "upper95": 0.227584699780975
+        },
+        {
+          "posterior_median": 0.178958024230086,
+          "lower95": 0.132253599131553,
+          "upper95": 0.235046750989009
+        },
+        {
+          "posterior_median": 0.185664957757849,
+          "lower95": 0.137699657378614,
+          "upper95": 0.242951464797397
+        },
+        {
+          "posterior_median": 0.192417036009451,
+          "lower95": 0.143202666237593,
+          "upper95": 0.251440290812503
+        },
+        {
+          "posterior_median": 0.199086158077884,
+          "lower95": 0.148810261361237,
+          "upper95": 0.25940065961643
+        },
+        {
+          "posterior_median": 0.205665284297457,
+          "lower95": 0.15396624475449,
+          "upper95": 0.267773899080401
+        },
+        {
+          "posterior_median": 0.212307734458876,
+          "lower95": 0.158953992784663,
+          "upper95": 0.275817699118855
+        },
+        {
+          "posterior_median": 0.218794755009731,
+          "lower95": 0.163791762184707,
+          "upper95": 0.283724906791181
+        },
+        {
+          "posterior_median": 0.224056743702526,
+          "lower95": 0.169322092026603,
+          "upper95": 0.28911436831469
+        },
+        {
+          "posterior_median": 0.229126000340307,
+          "lower95": 0.17448923556892,
+          "upper95": 0.294274294473249
+        },
+        {
+          "posterior_median": 0.234183547846299,
+          "lower95": 0.179110578015238,
+          "upper95": 0.299530385058619
+        },
+        {
+          "posterior_median": 0.239243146103049,
+          "lower95": 0.18389804066663,
+          "upper95": 0.304408166589235
+        },
+        {
+          "posterior_median": 0.244283266720562,
+          "lower95": 0.188551850225348,
+          "upper95": 0.309974343687823
+        },
+        {
+          "posterior_median": 0.249280165902971,
+          "lower95": 0.19307581861006,
+          "upper95": 0.315415005064523
+        },
+        {
+          "posterior_median": 0.254287777160884,
+          "lower95": 0.197146097239516,
+          "upper95": 0.321352502626511
+        },
+        {
+          "posterior_median": 0.259127390471535,
+          "lower95": 0.201178045219396,
+          "upper95": 0.327007583854479
+        },
+        {
+          "posterior_median": 0.26418064395789,
+          "lower95": 0.205040474043842,
+          "upper95": 0.332564629727158
+        },
+        {
+          "posterior_median": 0.268943426492803,
+          "lower95": 0.208967772367383,
+          "upper95": 0.338494503726935
+        },
+        {
+          "posterior_median": 0.273641315323028,
+          "lower95": 0.212930314548208,
+          "upper95": 0.344973576733874
+        },
+        {
+          "posterior_median": 0.278622952985285,
+          "lower95": 0.216352989576905,
+          "upper95": 0.3510504552916
+        },
+        {
+          "posterior_median": 0.282555048688257,
+          "lower95": 0.219960360308596,
+          "upper95": 0.354929742122935
+        },
+        {
+          "posterior_median": 0.286583813634315,
+          "lower95": 0.223567769709386,
+          "upper95": 0.359038311848091
+        },
+        {
+          "posterior_median": 0.290279524650089,
+          "lower95": 0.227033028376507,
+          "upper95": 0.363095302974851
+        },
+        {
+          "posterior_median": 0.294089588220678,
+          "lower95": 0.230831521019483,
+          "upper95": 0.366469455557418
+        },
+        {
+          "posterior_median": 0.297896727168034,
+          "lower95": 0.233977476496472,
+          "upper95": 0.370702503066631
+        },
+        {
+          "posterior_median": 0.301771877267277,
+          "lower95": 0.237157965389744,
+          "upper95": 0.374761102504682
+        },
+        {
+          "posterior_median": 0.305492714367974,
+          "lower95": 0.24066050423589,
+          "upper95": 0.378801869229328
+        },
+        {
+          "posterior_median": 0.309099055584625,
+          "lower95": 0.243709658185591,
+          "upper95": 0.38296710974737
+        },
+        {
+          "posterior_median": 0.312917891740558,
+          "lower95": 0.246844488451824,
+          "upper95": 0.387524390645162
+        },
+        {
+          "posterior_median": 0.316525357397401,
+          "lower95": 0.249784949500766,
+          "upper95": 0.391687666018459
+        },
+        {
+          "posterior_median": 0.320310081528517,
+          "lower95": 0.252481418685357,
+          "upper95": 0.396651945198319
+        },
+        {
+          "posterior_median": 0.32397997649363,
+          "lower95": 0.255226646301137,
+          "upper95": 0.401177967462571
+        },
+        {
+          "posterior_median": 0.328004790407404,
+          "lower95": 0.258486265485047,
+          "upper95": 0.40455366818735
+        },
+        {
+          "posterior_median": 0.331723123845544,
+          "lower95": 0.261086676594725,
+          "upper95": 0.409393230046969
+        },
+        {
+          "posterior_median": 0.335504646295628,
+          "lower95": 0.264327663950688,
+          "upper95": 0.413454491805782
+        },
+        {
+          "posterior_median": 0.339107070352545,
+          "lower95": 0.26701892145583,
+          "upper95": 0.417862586781469
+        },
+        {
+          "posterior_median": 0.34272837923275,
+          "lower95": 0.269226925238641,
+          "upper95": 0.422594247487333
+        },
+        {
+          "posterior_median": 0.346009315500848,
+          "lower95": 0.271482884390995,
+          "upper95": 0.426792941024145
+        },
+        {
+          "posterior_median": 0.349523718965856,
+          "lower95": 0.27337332896968,
+          "upper95": 0.430363685889577
+        },
+        {
+          "posterior_median": 0.352967819104577,
+          "lower95": 0.275655525616459,
+          "upper95": 0.434438423658043
+        },
+        {
+          "posterior_median": 0.356280536417281,
+          "lower95": 0.277863183947731,
+          "upper95": 0.439696929224262
+        },
+        {
+          "posterior_median": 0.359575619986129,
+          "lower95": 0.280117507000203,
+          "upper95": 0.444176353024556
+        },
+        {
+          "posterior_median": 0.362754599822525,
+          "lower95": 0.282162025313858,
+          "upper95": 0.449110200817714
+        },
+        {
+          "posterior_median": 0.365994413112707,
+          "lower95": 0.284331329216391,
+          "upper95": 0.453936884387522
+        }
+      ],
+      "observed_visits": [
+        {
+          "time_months": 12,
+          "risk": 0.15,
+          "lower95": 0.1,
+          "upper95": 0.21,
+          "events": null,
+          "denominator": null,
+          "source_location": "Supplement 2, eTable 5"
+        },
+        {
+          "time_months": 24,
+          "risk": 0.22,
+          "lower95": 0.16,
+          "upper95": 0.3,
+          "events": null,
+          "denominator": null,
+          "source_location": "Supplement 2, eTable 5"
+        },
+        {
+          "time_months": 36,
+          "risk": 0.29,
+          "lower95": 0.21,
+          "upper95": 0.38,
+          "events": null,
+          "denominator": null,
+          "source_location": "Supplement 2, eTable 5"
+        },
+        {
+          "time_months": 48,
+          "risk": 0.32,
+          "lower95": 0.24,
+          "upper95": 0.42,
+          "events": null,
+          "denominator": null,
+          "source_location": "Supplement 2, eTable 5"
+        },
+        {
+          "time_months": 60,
+          "risk": 0.37,
+          "lower95": 0.28,
+          "upper95": 0.47,
+          "events": null,
+          "denominator": null,
+          "source_location": "Supplement 2, eTable 5"
+        }
+      ]
+    },
+    {
+      "study_id": "OPTIMAL_2018",
+      "technique_arm_id": "OPTIMAL_2018::SSLF",
+      "technique_id": "SSLF_native",
+      "procedure_as_reported": "Sacrospinous ligament fixation",
+      "endpoint_class": "source_defined_clinical_composite_failure",
+      "endpoint_definition": "Primary trial composite surgical failure: POP-Q C > one-third TVL, any anterior/posterior point beyond hymen, bothersome bulge, or retreatment.",
+      "analysis_population": "",
+      "source_file": "Jelovsek2018.pdf",
+      "source_location": "PDF p.8, Table 2",
+      "curve_status": "Bayesian reconstructed; between visits and before first observed visit model-derived using piecewise hazard; no extrapolation beyond 60 months",
+      "monthly": [
+        {
+          "posterior_median": 0.041359193179085,
+          "lower95": 0.0271953156090254,
+          "upper95": 0.0618551496590362
+        },
+        {
+          "posterior_median": 0.0810078034977236,
+          "lower95": 0.0536510460086117,
+          "upper95": 0.119884239777848
+        },
+        {
+          "posterior_median": 0.119016579282892,
+          "lower95": 0.0793873044529479,
+          "upper95": 0.17432393184201
+        },
+        {
+          "posterior_median": 0.155453342767842,
+          "lower95": 0.104423657209887,
+          "upper95": 0.225396248605477
+        },
+        {
+          "posterior_median": 0.190383111112981,
+          "lower95": 0.128779138436411,
+          "upper95": 0.273309479571522
+        },
+        {
+          "posterior_median": 0.223868212421418,
+          "lower95": 0.152472264649561,
+          "upper95": 0.318259030465011
+        },
+        {
+          "posterior_median": 0.247894425631756,
+          "lower95": 0.176172284143018,
+          "upper95": 0.34012674540182
+        },
+        {
+          "posterior_median": 0.271441666535896,
+          "lower95": 0.197262834411288,
+          "upper95": 0.363099727735659
+        },
+        {
+          "posterior_median": 0.294180810078702,
+          "lower95": 0.217563362092652,
+          "upper95": 0.386457845395148
+        },
+        {
+          "posterior_median": 0.315782482816602,
+          "lower95": 0.235206033219111,
+          "upper95": 0.411404421614628
+        },
+        {
+          "posterior_median": 0.336743724206785,
+          "lower95": 0.252476045967081,
+          "upper95": 0.43433355083868
+        },
+        {
+          "posterior_median": 0.357092112096185,
+          "lower95": 0.268628459521873,
+          "upper95": 0.457999324385968
+        },
+        {
+          "posterior_median": 0.370792057799518,
+          "lower95": 0.283591423309189,
+          "upper95": 0.469512174742991
+        },
+        {
+          "posterior_median": 0.383999654646871,
+          "lower95": 0.296595359809492,
+          "upper95": 0.481902599768617
+        },
+        {
+          "posterior_median": 0.397155114240758,
+          "lower95": 0.309607987317568,
+          "upper95": 0.494414174701676
+        },
+        {
+          "posterior_median": 0.409793808345271,
+          "lower95": 0.321913866051869,
+          "upper95": 0.505659343903008
+        },
+        {
+          "posterior_median": 0.422478046550321,
+          "lower95": 0.333661472895552,
+          "upper95": 0.518287655395525
+        },
+        {
+          "posterior_median": 0.434890072930324,
+          "lower95": 0.344795178843832,
+          "upper95": 0.530799148353948
+        },
+        {
+          "posterior_median": 0.447130007110257,
+          "lower95": 0.355796681166669,
+          "upper95": 0.542005006676514
+        },
+        {
+          "posterior_median": 0.458740590325384,
+          "lower95": 0.366563556061471,
+          "upper95": 0.554199545955057
+        },
+        {
+          "posterior_median": 0.470059334243919,
+          "lower95": 0.377315778342947,
+          "upper95": 0.565836577728661
+        },
+        {
+          "posterior_median": 0.480914205046496,
+          "lower95": 0.386899870606432,
+          "upper95": 0.577440142418769
+        },
+        {
+          "posterior_median": 0.491474057817913,
+          "lower95": 0.396254262641827,
+          "upper95": 0.588938761526978
+        },
+        {
+          "posterior_median": 0.502387435593143,
+          "lower95": 0.405455142853197,
+          "upper95": 0.601380670327977
+        },
+        {
+          "posterior_median": 0.510207376254819,
+          "lower95": 0.413836213407279,
+          "upper95": 0.607827153768439
+        },
+        {
+          "posterior_median": 0.517970163290383,
+          "lower95": 0.421578787099158,
+          "upper95": 0.614342893063645
+        },
+        {
+          "posterior_median": 0.525601992157447,
+          "lower95": 0.428720079335793,
+          "upper95": 0.621366795807325
+        },
+        {
+          "posterior_median": 0.533313376015713,
+          "lower95": 0.436618810235777,
+          "upper95": 0.628139830862144
+        },
+        {
+          "posterior_median": 0.540860058643605,
+          "lower95": 0.444497397661757,
+          "upper95": 0.634789341353175
+        },
+        {
+          "posterior_median": 0.547929134507811,
+          "lower95": 0.451843944115155,
+          "upper95": 0.641628275446377
+        },
+        {
+          "posterior_median": 0.555154396215455,
+          "lower95": 0.458681654803949,
+          "upper95": 0.648429433713991
+        },
+        {
+          "posterior_median": 0.562329618270947,
+          "lower95": 0.46512612042957,
+          "upper95": 0.65546930687935
+        },
+        {
+          "posterior_median": 0.569174264466956,
+          "lower95": 0.472202679539899,
+          "upper95": 0.662373464269738
+        },
+        {
+          "posterior_median": 0.575918336613627,
+          "lower95": 0.478458703319254,
+          "upper95": 0.66895267150515
+        },
+        {
+          "posterior_median": 0.582712464870849,
+          "lower95": 0.484738440413755,
+          "upper95": 0.675949796070914
+        },
+        {
+          "posterior_median": 0.58913825475086,
+          "lower95": 0.490840277836158,
+          "upper95": 0.682789774047617
+        },
+        {
+          "posterior_median": 0.59437428644434,
+          "lower95": 0.497060615600257,
+          "upper95": 0.686880837421058
+        },
+        {
+          "posterior_median": 0.599532139299093,
+          "lower95": 0.502587769034396,
+          "upper95": 0.691266436900938
+        },
+        {
+          "posterior_median": 0.604818404392577,
+          "lower95": 0.508167681696793,
+          "upper95": 0.695863559176968
+        },
+        {
+          "posterior_median": 0.610029955263964,
+          "lower95": 0.513494348366996,
+          "upper95": 0.700376107524759
+        },
+        {
+          "posterior_median": 0.614643008370149,
+          "lower95": 0.518092109827644,
+          "upper95": 0.705035332703608
+        },
+        {
+          "posterior_median": 0.619587308385797,
+          "lower95": 0.522612880477961,
+          "upper95": 0.709597381352643
+        },
+        {
+          "posterior_median": 0.624382769508922,
+          "lower95": 0.526797470205326,
+          "upper95": 0.71454870696855
+        },
+        {
+          "posterior_median": 0.629076687651319,
+          "lower95": 0.531064124195917,
+          "upper95": 0.719625221644302
+        },
+        {
+          "posterior_median": 0.633629670706907,
+          "lower95": 0.535041213772662,
+          "upper95": 0.724684378274129
+        },
+        {
+          "posterior_median": 0.638288381379975,
+          "lower95": 0.539248884492128,
+          "upper95": 0.729117965255402
+        },
+        {
+          "posterior_median": 0.642674877811481,
+          "lower95": 0.544046172673811,
+          "upper95": 0.733282194979765
+        },
+        {
+          "posterior_median": 0.647104590749765,
+          "lower95": 0.548050153385715,
+          "upper95": 0.737925020310013
+        },
+        {
+          "posterior_median": 0.65148853635994,
+          "lower95": 0.551721840640305,
+          "upper95": 0.741352394301289
+        },
+        {
+          "posterior_median": 0.65595172957332,
+          "lower95": 0.555156967171044,
+          "upper95": 0.744848961066837
+        },
+        {
+          "posterior_median": 0.660344746014784,
+          "lower95": 0.558758535749934,
+          "upper95": 0.748856555965392
+        },
+        {
+          "posterior_median": 0.664558125213849,
+          "lower95": 0.562816922703223,
+          "upper95": 0.753143489698896
+        },
+        {
+          "posterior_median": 0.668815857696756,
+          "lower95": 0.565867020814298,
+          "upper95": 0.757762383320018
+        },
+        {
+          "posterior_median": 0.672573069566886,
+          "lower95": 0.568936688810418,
+          "upper95": 0.762520339450301
+        },
+        {
+          "posterior_median": 0.676489510179184,
+          "lower95": 0.571935342171534,
+          "upper95": 0.767182897737428
+        },
+        {
+          "posterior_median": 0.680437393767286,
+          "lower95": 0.574470126926094,
+          "upper95": 0.771670060207287
+        },
+        {
+          "posterior_median": 0.684274165774057,
+          "lower95": 0.577591497845908,
+          "upper95": 0.776094537563692
+        },
+        {
+          "posterior_median": 0.688211372134323,
+          "lower95": 0.580780645461444,
+          "upper95": 0.780376399387519
+        },
+        {
+          "posterior_median": 0.691673068931213,
+          "lower95": 0.5837149151662,
+          "upper95": 0.785712549886864
+        },
+        {
+          "posterior_median": 0.695300631280362,
+          "lower95": 0.586463203072238,
+          "upper95": 0.790313688434363
+        }
+      ],
+      "observed_visits": [
+        {
+          "time_months": 6,
+          "risk": 0.248,
+          "lower95": 0.154,
+          "upper95": 0.343,
+          "events": 39,
+          "denominator": 177,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 12,
+          "risk": 0.376,
+          "lower95": 0.269,
+          "upper95": 0.483,
+          "events": 63,
+          "denominator": 172,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 24,
+          "risk": 0.52,
+          "lower95": 0.406,
+          "upper95": 0.633,
+          "events": 76,
+          "denominator": 166,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 36,
+          "risk": 0.604,
+          "lower95": 0.489,
+          "upper95": 0.718,
+          "events": 89,
+          "denominator": 154,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 48,
+          "risk": 0.661,
+          "lower95": 0.547,
+          "upper95": 0.774,
+          "events": 96,
+          "denominator": 148,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 60,
+          "risk": 0.703,
+          "lower95": 0.591,
+          "upper95": 0.814,
+          "events": 104,
+          "denominator": 146,
+          "source_location": "PDF p.8, Table 2"
+        }
+      ]
+    },
+    {
+      "study_id": "OPTIMAL_2018",
+      "technique_arm_id": "OPTIMAL_2018::ULS",
+      "technique_id": "native_ULS",
+      "procedure_as_reported": "Uterosacral ligament suspension",
+      "endpoint_class": "source_defined_clinical_composite_failure",
+      "endpoint_definition": "Primary trial composite surgical failure: POP-Q C > one-third TVL, any anterior/posterior point beyond hymen, bothersome bulge, or retreatment.",
+      "analysis_population": "",
+      "source_file": "Jelovsek2018.pdf",
+      "source_location": "PDF p.8, Table 2",
+      "curve_status": "Bayesian reconstructed; between visits and before first observed visit model-derived using piecewise hazard; no extrapolation beyond 60 months",
+      "monthly": [
+        {
+          "posterior_median": 0.0403180246912604,
+          "lower95": 0.0279309749557056,
+          "upper95": 0.0582342084841171
+        },
+        {
+          "posterior_median": 0.0790105062675158,
+          "lower95": 0.0550818105412202,
+          "upper95": 0.11307719392446
+        },
+        {
+          "posterior_median": 0.116142983416213,
+          "lower95": 0.0814742968102135,
+          "upper95": 0.164726441511476
+        },
+        {
+          "posterior_median": 0.151778352434382,
+          "lower95": 0.107129615198892,
+          "upper95": 0.213367936041797
+        },
+        {
+          "posterior_median": 0.185976973764594,
+          "lower95": 0.132068355525281,
+          "upper95": 0.259176831634577
+        },
+        {
+          "posterior_median": 0.218796774235608,
+          "lower95": 0.156310532513694,
+          "upper95": 0.302318082447426
+        },
+        {
+          "posterior_median": 0.238597029222084,
+          "lower95": 0.175923114282636,
+          "upper95": 0.319878183110487
+        },
+        {
+          "posterior_median": 0.258367571128383,
+          "lower95": 0.193732840605469,
+          "upper95": 0.337262399622516
+        },
+        {
+          "posterior_median": 0.277025181117362,
+          "lower95": 0.209915267965682,
+          "upper95": 0.355238862490859
+        },
+        {
+          "posterior_median": 0.295082246109337,
+          "lower95": 0.224838031581211,
+          "upper95": 0.373940505445485
+        },
+        {
+          "posterior_median": 0.312437071813278,
+          "lower95": 0.239088413591756,
+          "upper95": 0.393343867564527
+        },
+        {
+          "posterior_median": 0.329357285512555,
+          "lower95": 0.251776486560037,
+          "upper95": 0.413548689927345
+        },
+        {
+          "posterior_median": 0.339809123942602,
+          "lower95": 0.263249654393109,
+          "upper95": 0.422925474271998
+        },
+        {
+          "posterior_median": 0.350623685866181,
+          "lower95": 0.274520220592183,
+          "upper95": 0.432718972616603
+        },
+        {
+          "posterior_median": 0.360934105900984,
+          "lower95": 0.284872541145552,
+          "upper95": 0.441736988819493
+        },
+        {
+          "posterior_median": 0.371197474476996,
+          "lower95": 0.294729435936853,
+          "upper95": 0.450651722767849
+        },
+        {
+          "posterior_median": 0.380759309409503,
+          "lower95": 0.304230609915895,
+          "upper95": 0.460556516340859
+        },
+        {
+          "posterior_median": 0.390463386351087,
+          "lower95": 0.313546768480948,
+          "upper95": 0.470570033135334
+        },
+        {
+          "posterior_median": 0.399985073632301,
+          "lower95": 0.322359081412457,
+          "upper95": 0.480314950709395
+        },
+        {
+          "posterior_median": 0.409169033117351,
+          "lower95": 0.330765013295734,
+          "upper95": 0.490665230716374
+        },
+        {
+          "posterior_median": 0.41838220194996,
+          "lower95": 0.339190536372758,
+          "upper95": 0.500648988809028
+        },
+        {
+          "posterior_median": 0.427437562189383,
+          "lower95": 0.346848639418412,
+          "upper95": 0.511042263505109
+        },
+        {
+          "posterior_median": 0.436175290069044,
+          "lower95": 0.35399485291032,
+          "upper95": 0.52137695838121
+        },
+        {
+          "posterior_median": 0.444827331480353,
+          "lower95": 0.361584791491463,
+          "upper95": 0.531180342847056
+        },
+        {
+          "posterior_median": 0.451152181700659,
+          "lower95": 0.368313882429403,
+          "upper95": 0.535748575018437
+        },
+        {
+          "posterior_median": 0.45737609704366,
+          "lower95": 0.374978923263494,
+          "upper95": 0.540750179963262
+        },
+        {
+          "posterior_median": 0.463355093650233,
+          "lower95": 0.381500243528721,
+          "upper95": 0.546162659596266
+        },
+        {
+          "posterior_median": 0.469662501726146,
+          "lower95": 0.387683000074676,
+          "upper95": 0.551107053927293
+        },
+        {
+          "posterior_median": 0.475884583927139,
+          "lower95": 0.393546514377218,
+          "upper95": 0.55778342767243
+        },
+        {
+          "posterior_median": 0.481705288094794,
+          "lower95": 0.399047139528175,
+          "upper95": 0.563743232709434
+        },
+        {
+          "posterior_median": 0.487460720726161,
+          "lower95": 0.404251260953718,
+          "upper95": 0.569159894403837
+        },
+        {
+          "posterior_median": 0.493056041847271,
+          "lower95": 0.409408994446557,
+          "upper95": 0.575241391641015
+        },
+        {
+          "posterior_median": 0.498924623639373,
+          "lower95": 0.414609297685371,
+          "upper95": 0.580856355970827
+        },
+        {
+          "posterior_median": 0.504557189878295,
+          "lower95": 0.419476665658224,
+          "upper95": 0.587132253955325
+        },
+        {
+          "posterior_median": 0.510115981188992,
+          "lower95": 0.424304476649364,
+          "upper95": 0.593854694114255
+        },
+        {
+          "posterior_median": 0.515712610133966,
+          "lower95": 0.42797414000223,
+          "upper95": 0.599636203496348
+        },
+        {
+          "posterior_median": 0.520120102552893,
+          "lower95": 0.433444010474408,
+          "upper95": 0.603848324078371
+        },
+        {
+          "posterior_median": 0.524571651279822,
+          "lower95": 0.438658659465009,
+          "upper95": 0.607776389481373
+        },
+        {
+          "posterior_median": 0.528857029797662,
+          "lower95": 0.443290334136473,
+          "upper95": 0.612247639292987
+        },
+        {
+          "posterior_median": 0.533166357870203,
+          "lower95": 0.447529302971035,
+          "upper95": 0.6160211913684
+        },
+        {
+          "posterior_median": 0.537436667516461,
+          "lower95": 0.450955982067278,
+          "upper95": 0.620237353248136
+        },
+        {
+          "posterior_median": 0.541708724683403,
+          "lower95": 0.454920212171348,
+          "upper95": 0.624192221059084
+        },
+        {
+          "posterior_median": 0.545739412986133,
+          "lower95": 0.458899351244078,
+          "upper95": 0.628096975774548
+        },
+        {
+          "posterior_median": 0.549724852917988,
+          "lower95": 0.461953520096651,
+          "upper95": 0.632507186512825
+        },
+        {
+          "posterior_median": 0.553624869331237,
+          "lower95": 0.465264253209017,
+          "upper95": 0.63714791009865
+        },
+        {
+          "posterior_median": 0.557748807492555,
+          "lower95": 0.468597723578609,
+          "upper95": 0.641878995848758
+        },
+        {
+          "posterior_median": 0.561846594683619,
+          "lower95": 0.472016459743605,
+          "upper95": 0.646066124424882
+        },
+        {
+          "posterior_median": 0.565816354915422,
+          "lower95": 0.47531375747281,
+          "upper95": 0.649906641690767
+        },
+        {
+          "posterior_median": 0.569314048486514,
+          "lower95": 0.478564570937316,
+          "upper95": 0.653914459158496
+        },
+        {
+          "posterior_median": 0.57271831127905,
+          "lower95": 0.481843349952595,
+          "upper95": 0.65741036629793
+        },
+        {
+          "posterior_median": 0.576398839707369,
+          "lower95": 0.485628175928239,
+          "upper95": 0.661245917457915
+        },
+        {
+          "posterior_median": 0.580125112828588,
+          "lower95": 0.488546629703026,
+          "upper95": 0.664757685813116
+        },
+        {
+          "posterior_median": 0.583511145745246,
+          "lower95": 0.491045982248419,
+          "upper95": 0.668844713187982
+        },
+        {
+          "posterior_median": 0.587130502373873,
+          "lower95": 0.493846595960948,
+          "upper95": 0.672393233718524
+        },
+        {
+          "posterior_median": 0.590401181880783,
+          "lower95": 0.496179081414343,
+          "upper95": 0.676635355744751
+        },
+        {
+          "posterior_median": 0.593702839182295,
+          "lower95": 0.498425986108152,
+          "upper95": 0.68101049698492
+        },
+        {
+          "posterior_median": 0.597021331491796,
+          "lower95": 0.50097301714318,
+          "upper95": 0.686195384652767
+        },
+        {
+          "posterior_median": 0.600329134421482,
+          "lower95": 0.503230765953125,
+          "upper95": 0.690803807138967
+        },
+        {
+          "posterior_median": 0.603716245973555,
+          "lower95": 0.504815722095415,
+          "upper95": 0.695443571556509
+        },
+        {
+          "posterior_median": 0.607235905789437,
+          "lower95": 0.507179806167961,
+          "upper95": 0.699954933135811
+        }
+      ],
+      "observed_visits": [
+        {
+          "time_months": 6,
+          "risk": 0.237,
+          "lower95": 0.157,
+          "upper95": 0.318,
+          "events": 34,
+          "denominator": 177,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 12,
+          "risk": 0.34,
+          "lower95": 0.25,
+          "upper95": 0.43,
+          "events": 59,
+          "denominator": 177,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 24,
+          "risk": 0.457,
+          "lower95": 0.358,
+          "upper95": 0.555,
+          "events": 76,
+          "denominator": 172,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 36,
+          "risk": 0.527,
+          "lower95": 0.425,
+          "upper95": 0.63,
+          "events": 87,
+          "denominator": 158,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 48,
+          "risk": 0.577,
+          "lower95": 0.472,
+          "upper95": 0.682,
+          "events": 92,
+          "denominator": 150,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 60,
+          "risk": 0.615,
+          "lower95": 0.508,
+          "upper95": 0.722,
+          "events": 94,
+          "denominator": 145,
+          "source_location": "PDF p.8, Table 2"
+        }
+      ]
+    },
+    {
+      "study_id": "SUPeR_2021",
+      "technique_arm_id": "SUPeR_2021::SSH_graft",
+      "technique_id": "SSH_graft",
+      "procedure_as_reported": "Graft-augmented sacrospinous hysteropexy",
+      "endpoint_class": "source_defined_clinical_composite_failure",
+      "endpoint_definition": "Composite includes retreatment, POP-Q beyond the hymen, or bothersome bulge; source failure classification is carried forward after first failure.",
+      "analysis_population": "",
+      "source_file": "SUPeR_Nager2021.pdf",
+      "source_location": "PDF p.8, Table 2; PDF p.9, Table 2",
+      "curve_status": "Bayesian reconstructed; between visits and before first observed visit model-derived using piecewise hazard; no extrapolation beyond 60 months",
+      "monthly": [
+        {
+          "posterior_median": 0.0119704974845211,
+          "lower95": 0.00738154870502794,
+          "upper95": 0.0195383450452536
+        },
+        {
+          "posterior_median": 0.0237977021588006,
+          "lower95": 0.0147086101472363,
+          "upper95": 0.0386949431629938
+        },
+        {
+          "posterior_median": 0.0354833293090682,
+          "lower95": 0.0219815865270319,
+          "upper95": 0.0574772530564262
+        },
+        {
+          "posterior_median": 0.0470290736887239,
+          "lower95": 0.0292008770759597,
+          "upper95": 0.0758925876980391
+        },
+        {
+          "posterior_median": 0.0584366097641266,
+          "lower95": 0.0363668780786169,
+          "upper95": 0.0939481171769405
+        },
+        {
+          "posterior_median": 0.0697075919574394,
+          "lower95": 0.0434799828944069,
+          "upper95": 0.111650871490563
+        },
+        {
+          "posterior_median": 0.0808436548865691,
+          "lower95": 0.050540581979131,
+          "upper95": 0.129007743281824
+        },
+        {
+          "posterior_median": 0.0918464136022331,
+          "lower95": 0.0575490629064217,
+          "upper95": 0.146025490522803
+        },
+        {
+          "posterior_median": 0.102717463822188,
+          "lower95": 0.0645058103890178,
+          "upper95": 0.16271073914599
+        },
+        {
+          "posterior_median": 0.113458382162654,
+          "lower95": 0.0714112062998817,
+          "upper95": 0.179069985624121
+        },
+        {
+          "posterior_median": 0.124070726366973,
+          "lower95": 0.0782656296931624,
+          "upper95": 0.195109599499602
+        },
+        {
+          "posterior_median": 0.134556035531522,
+          "lower95": 0.085069456825001,
+          "upper95": 0.210835825864525
+        },
+        {
+          "posterior_median": 0.142996039585764,
+          "lower95": 0.0923524710627448,
+          "upper95": 0.218532163132532
+        },
+        {
+          "posterior_median": 0.151325991683087,
+          "lower95": 0.0994812476319721,
+          "upper95": 0.226416331489222
+        },
+        {
+          "posterior_median": 0.159540959577538,
+          "lower95": 0.106316427617071,
+          "upper95": 0.234523821521896
+        },
+        {
+          "posterior_median": 0.16752774269636,
+          "lower95": 0.11270800027488,
+          "upper95": 0.243148044574754
+        },
+        {
+          "posterior_median": 0.175270997473067,
+          "lower95": 0.11910498905762,
+          "upper95": 0.251637125886451
+        },
+        {
+          "posterior_median": 0.18292997390478,
+          "lower95": 0.125164941118227,
+          "upper95": 0.260355965571375
+        },
+        {
+          "posterior_median": 0.190451213738807,
+          "lower95": 0.131078074767395,
+          "upper95": 0.268779855875764
+        },
+        {
+          "posterior_median": 0.197835057354245,
+          "lower95": 0.136764846509664,
+          "upper95": 0.276761734076089
+        },
+        {
+          "posterior_median": 0.205305943633391,
+          "lower95": 0.142528519069673,
+          "upper95": 0.285692803115692
+        },
+        {
+          "posterior_median": 0.212523924689665,
+          "lower95": 0.148341977159407,
+          "upper95": 0.294758317284108
+        },
+        {
+          "posterior_median": 0.219605370733656,
+          "lower95": 0.153955707521784,
+          "upper95": 0.304523672292583
+        },
+        {
+          "posterior_median": 0.226823416406634,
+          "lower95": 0.159317272419748,
+          "upper95": 0.313850945858179
+        },
+        {
+          "posterior_median": 0.232307044117256,
+          "lower95": 0.164483650760577,
+          "upper95": 0.318051910058248
+        },
+        {
+          "posterior_median": 0.237573424775171,
+          "lower95": 0.169434479788326,
+          "upper95": 0.3219305202431
+        },
+        {
+          "posterior_median": 0.242861633604865,
+          "lower95": 0.17459097799635,
+          "upper95": 0.326938409228024
+        },
+        {
+          "posterior_median": 0.248140626997795,
+          "lower95": 0.179467663723766,
+          "upper95": 0.332015543396825
+        },
+        {
+          "posterior_median": 0.253349298307096,
+          "lower95": 0.184123475718138,
+          "upper95": 0.336641198521249
+        },
+        {
+          "posterior_median": 0.258503231773706,
+          "lower95": 0.188991938664639,
+          "upper95": 0.342064738353488
+        },
+        {
+          "posterior_median": 0.263475233419453,
+          "lower95": 0.193897904443967,
+          "upper95": 0.347378362599367
+        },
+        {
+          "posterior_median": 0.268688468351269,
+          "lower95": 0.198051302414656,
+          "upper95": 0.352578295099045
+        },
+        {
+          "posterior_median": 0.273587464231409,
+          "lower95": 0.202498752374227,
+          "upper95": 0.357710900116963
+        },
+        {
+          "posterior_median": 0.278527413580177,
+          "lower95": 0.20701626885231,
+          "upper95": 0.364157774761608
+        },
+        {
+          "posterior_median": 0.283600796884915,
+          "lower95": 0.211446440203441,
+          "upper95": 0.369886449131993
+        },
+        {
+          "posterior_median": 0.288493459967297,
+          "lower95": 0.215273623555824,
+          "upper95": 0.375504290365685
+        },
+        {
+          "posterior_median": 0.292436004463668,
+          "lower95": 0.219025260709043,
+          "upper95": 0.378696617404886
+        },
+        {
+          "posterior_median": 0.296313531492646,
+          "lower95": 0.22318520355463,
+          "upper95": 0.382140876701855
+        },
+        {
+          "posterior_median": 0.300093318812135,
+          "lower95": 0.226432057032986,
+          "upper95": 0.385497569226984
+        },
+        {
+          "posterior_median": 0.303955976774762,
+          "lower95": 0.229969816921992,
+          "upper95": 0.389347386866345
+        },
+        {
+          "posterior_median": 0.307883024743894,
+          "lower95": 0.233042002262419,
+          "upper95": 0.3928321471621
+        },
+        {
+          "posterior_median": 0.311844434912265,
+          "lower95": 0.236793488122424,
+          "upper95": 0.397277406376797
+        },
+        {
+          "posterior_median": 0.315576430197065,
+          "lower95": 0.240506222479896,
+          "upper95": 0.401858348149199
+        },
+        {
+          "posterior_median": 0.319365764812755,
+          "lower95": 0.243376740899297,
+          "upper95": 0.40562151534927
+        },
+        {
+          "posterior_median": 0.323043050112997,
+          "lower95": 0.246407181081591,
+          "upper95": 0.409389769024022
+        },
+        {
+          "posterior_median": 0.326818530771736,
+          "lower95": 0.249097624676202,
+          "upper95": 0.413299195723757
+        },
+        {
+          "posterior_median": 0.330432017620078,
+          "lower95": 0.251882722015278,
+          "upper95": 0.417268950524973
+        },
+        {
+          "posterior_median": 0.334113272939287,
+          "lower95": 0.254926737324927,
+          "upper95": 0.421271833210807
+        },
+        {
+          "posterior_median": 0.337730408330651,
+          "lower95": 0.257846838889544,
+          "upper95": 0.425616502245503
+        },
+        {
+          "posterior_median": 0.341055961275859,
+          "lower95": 0.260616707079386,
+          "upper95": 0.429420597254103
+        },
+        {
+          "posterior_median": 0.344462494338618,
+          "lower95": 0.263361843939294,
+          "upper95": 0.433030154094627
+        },
+        {
+          "posterior_median": 0.347621324777411,
+          "lower95": 0.265687217745555,
+          "upper95": 0.43763532558146
+        },
+        {
+          "posterior_median": 0.35090269038984,
+          "lower95": 0.268269543597147,
+          "upper95": 0.441221532722958
+        },
+        {
+          "posterior_median": 0.354050709563155,
+          "lower95": 0.270176951580839,
+          "upper95": 0.44534534434644
+        },
+        {
+          "posterior_median": 0.357474011388153,
+          "lower95": 0.272375216232799,
+          "upper95": 0.44934816368179
+        },
+        {
+          "posterior_median": 0.360650049287627,
+          "lower95": 0.27432762440156,
+          "upper95": 0.454010735072374
+        },
+        {
+          "posterior_median": 0.363913911247526,
+          "lower95": 0.276391307210977,
+          "upper95": 0.458219877390479
+        },
+        {
+          "posterior_median": 0.366977143228783,
+          "lower95": 0.278275040340163,
+          "upper95": 0.461647788313007
+        },
+        {
+          "posterior_median": 0.37009744387647,
+          "lower95": 0.280222874030681,
+          "upper95": 0.46547478711737
+        },
+        {
+          "posterior_median": 0.373314285728872,
+          "lower95": 0.282282474284097,
+          "upper95": 0.470604370023689
+        }
+      ],
+      "observed_visits": [
+        {
+          "time_months": 12,
+          "risk": 0.1511627906976744,
+          "lower95": 0.0905212298313233,
+          "upper95": 0.241635651995939,
+          "events": 13,
+          "denominator": 86,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 24,
+          "risk": 0.24050632911392406,
+          "lower95": 0.159721800976163,
+          "upper95": 0.345356929122708,
+          "events": 19,
+          "denominator": 79,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 36,
+          "risk": 0.3076923076923077,
+          "lower95": 0.216319285556073,
+          "upper95": 0.417118333564001,
+          "events": 24,
+          "denominator": 78,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 48,
+          "risk": 0.34210526315789475,
+          "lower95": 0.245363268174947,
+          "upper95": 0.454041021845623,
+          "events": 26,
+          "denominator": 76,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 60,
+          "risk": 0.3670886075949367,
+          "lower95": 0.269272925204975,
+          "upper95": 0.477230814601764,
+          "events": 29,
+          "denominator": 79,
+          "source_location": "PDF p.9, Table 2"
+        }
+      ]
+    },
+    {
+      "study_id": "SUPeR_2021",
+      "technique_arm_id": "SUPeR_2021::VH_ULS",
+      "technique_id": "VH_ULS",
+      "procedure_as_reported": "Vaginal hysterectomy plus ULS",
+      "endpoint_class": "source_defined_clinical_composite_failure",
+      "endpoint_definition": "Composite includes retreatment, POP-Q beyond the hymen, or bothersome bulge; source failure classification is carried forward after first failure.",
+      "analysis_population": "",
+      "source_file": "SUPeR_Nager2021.pdf",
+      "source_location": "PDF p.8, Table 2; PDF p.9, Table 2",
+      "curve_status": "Bayesian reconstructed; between visits and before first observed visit model-derived using piecewise hazard; no extrapolation beyond 60 months",
+      "monthly": [
+        {
+          "posterior_median": 0.0200685744372851,
+          "lower95": 0.0132397213959138,
+          "upper95": 0.0301601564639586
+        },
+        {
+          "posterior_median": 0.0397344011912839,
+          "lower95": 0.0263041525691698,
+          "upper95": 0.0594106778894698
+        },
+        {
+          "posterior_median": 0.059005562833992,
+          "lower95": 0.0391956143134797,
+          "upper95": 0.0877789990116495
+        },
+        {
+          "posterior_median": 0.0778899797317032,
+          "lower95": 0.0519163966958935,
+          "upper95": 0.115291727129708
+        },
+        {
+          "posterior_median": 0.0963954133002469,
+          "lower95": 0.0644687594636109,
+          "upper95": 0.141974667062549
+        },
+        {
+          "posterior_median": 0.114529469194897,
+          "lower95": 0.0768549324454086,
+          "upper95": 0.167852845351696
+        },
+        {
+          "posterior_median": 0.132299600436266,
+          "lower95": 0.0890771159477514,
+          "upper95": 0.192950533734265
+        },
+        {
+          "posterior_median": 0.149713110473461,
+          "lower95": 0.10113748114566,
+          "upper95": 0.217291271907983
+        },
+        {
+          "posterior_median": 0.166777156185777,
+          "lower95": 0.113038170468401,
+          "upper95": 0.240897889609607
+        },
+        {
+          "posterior_median": 0.183498750824138,
+          "lower95": 0.124781297980077,
+          "upper95": 0.26379252802746
+        },
+        {
+          "posterior_median": 0.199884766893519,
+          "lower95": 0.136368949755168,
+          "upper95": 0.285996660568163
+        },
+        {
+          "posterior_median": 0.21594193897751,
+          "lower95": 0.147803184249112,
+          "upper95": 0.30753111299703
+        },
+        {
+          "posterior_median": 0.226203483875408,
+          "lower95": 0.158469602249709,
+          "upper95": 0.316256669897802
+        },
+        {
+          "posterior_median": 0.236386820410866,
+          "lower95": 0.168257608678037,
+          "upper95": 0.324385098964246
+        },
+        {
+          "posterior_median": 0.246635527943068,
+          "lower95": 0.177602547121064,
+          "upper95": 0.333014513429992
+        },
+        {
+          "posterior_median": 0.256584337244063,
+          "lower95": 0.186738237157282,
+          "upper95": 0.343144585326609
+        },
+        {
+          "posterior_median": 0.266320571779691,
+          "lower95": 0.195412583113488,
+          "upper95": 0.352679769732637
+        },
+        {
+          "posterior_median": 0.275874824475164,
+          "lower95": 0.203201756933562,
+          "upper95": 0.361623931957715
+        },
+        {
+          "posterior_median": 0.285097974171559,
+          "lower95": 0.211524373574411,
+          "upper95": 0.372221023266586
+        },
+        {
+          "posterior_median": 0.29416952381731,
+          "lower95": 0.21867579574681,
+          "upper95": 0.381411479694154
+        },
+        {
+          "posterior_median": 0.303249436340455,
+          "lower95": 0.226286357040886,
+          "upper95": 0.391233513333313
+        },
+        {
+          "posterior_median": 0.312163522833844,
+          "lower95": 0.233721858093197,
+          "upper95": 0.401054524039381
+        },
+        {
+          "posterior_median": 0.32084901617083,
+          "lower95": 0.240827625405572,
+          "upper95": 0.41054372257793
+        },
+        {
+          "posterior_median": 0.329341765113554,
+          "lower95": 0.248215957173809,
+          "upper95": 0.421213657597541
+        },
+        {
+          "posterior_median": 0.336706892617359,
+          "lower95": 0.255639039732123,
+          "upper95": 0.426915084211568
+        },
+        {
+          "posterior_median": 0.343994558180507,
+          "lower95": 0.263116488343634,
+          "upper95": 0.433312242928558
+        },
+        {
+          "posterior_median": 0.351245359403798,
+          "lower95": 0.270027181090351,
+          "upper95": 0.44018102281005
+        },
+        {
+          "posterior_median": 0.358348902175077,
+          "lower95": 0.277576478253398,
+          "upper95": 0.446302206994273
+        },
+        {
+          "posterior_median": 0.365156881582012,
+          "lower95": 0.284652149541953,
+          "upper95": 0.45318723097368
+        },
+        {
+          "posterior_median": 0.371738743148252,
+          "lower95": 0.290496913198117,
+          "upper95": 0.460226520999705
+        },
+        {
+          "posterior_median": 0.378237232358249,
+          "lower95": 0.296330548782088,
+          "upper95": 0.467039644592389
+        },
+        {
+          "posterior_median": 0.384976456434554,
+          "lower95": 0.3028620425087,
+          "upper95": 0.473473664309307
+        },
+        {
+          "posterior_median": 0.391490983147751,
+          "lower95": 0.30852392635034,
+          "upper95": 0.481081238901964
+        },
+        {
+          "posterior_median": 0.398088978990696,
+          "lower95": 0.314140843753938,
+          "upper95": 0.487552599906981
+        },
+        {
+          "posterior_median": 0.404344403110709,
+          "lower95": 0.319840429977333,
+          "upper95": 0.49476543129123
+        },
+        {
+          "posterior_median": 0.410757682346764,
+          "lower95": 0.324556967288029,
+          "upper95": 0.501088233887678
+        },
+        {
+          "posterior_median": 0.416451968836503,
+          "lower95": 0.33134273075605,
+          "upper95": 0.505898822594461
+        },
+        {
+          "posterior_median": 0.422337444871488,
+          "lower95": 0.337448547681092,
+          "upper95": 0.51127342039374
+        },
+        {
+          "posterior_median": 0.428132738650767,
+          "lower95": 0.342869854086484,
+          "upper95": 0.516239773703668
+        },
+        {
+          "posterior_median": 0.433938239027804,
+          "lower95": 0.348680670416045,
+          "upper95": 0.521828531236376
+        },
+        {
+          "posterior_median": 0.439602536558609,
+          "lower95": 0.354073872276754,
+          "upper95": 0.52763101198471
+        },
+        {
+          "posterior_median": 0.444976304253283,
+          "lower95": 0.359198501228789,
+          "upper95": 0.53310826116288
+        },
+        {
+          "posterior_median": 0.450448723376789,
+          "lower95": 0.363607460894336,
+          "upper95": 0.538852774612166
+        },
+        {
+          "posterior_median": 0.455880179948821,
+          "lower95": 0.368316190553566,
+          "upper95": 0.5439135762243
+        },
+        {
+          "posterior_median": 0.461238599970046,
+          "lower95": 0.373067303663261,
+          "upper95": 0.549157060935607
+        },
+        {
+          "posterior_median": 0.466579114520073,
+          "lower95": 0.377823506805962,
+          "upper95": 0.555129615759032
+        },
+        {
+          "posterior_median": 0.471741686325885,
+          "lower95": 0.382230445132016,
+          "upper95": 0.561192058085954
+        },
+        {
+          "posterior_median": 0.477027391527132,
+          "lower95": 0.386545364595974,
+          "upper95": 0.567600087163534
+        },
+        {
+          "posterior_median": 0.481780827336906,
+          "lower95": 0.391799518760758,
+          "upper95": 0.571957387299006
+        },
+        {
+          "posterior_median": 0.486911249803401,
+          "lower95": 0.39682033155637,
+          "upper95": 0.576630715211929
+        },
+        {
+          "posterior_median": 0.491716626212539,
+          "lower95": 0.400490979790986,
+          "upper95": 0.580533413058094
+        },
+        {
+          "posterior_median": 0.496388978363378,
+          "lower95": 0.404544376310001,
+          "upper95": 0.585650279261046
+        },
+        {
+          "posterior_median": 0.501122858654001,
+          "lower95": 0.408814949714964,
+          "upper95": 0.590986105164411
+        },
+        {
+          "posterior_median": 0.505499995975561,
+          "lower95": 0.412888190382382,
+          "upper95": 0.596025554133126
+        },
+        {
+          "posterior_median": 0.509802820086741,
+          "lower95": 0.416351309530618,
+          "upper95": 0.601232513018516
+        },
+        {
+          "posterior_median": 0.514410431413124,
+          "lower95": 0.41980474675257,
+          "upper95": 0.606196849823608
+        },
+        {
+          "posterior_median": 0.518877335300821,
+          "lower95": 0.423796893262874,
+          "upper95": 0.61088237666938
+        },
+        {
+          "posterior_median": 0.523134106911809,
+          "lower95": 0.42697744199964,
+          "upper95": 0.616355204686447
+        },
+        {
+          "posterior_median": 0.52739924342624,
+          "lower95": 0.429310202129599,
+          "upper95": 0.621235455009068
+        },
+        {
+          "posterior_median": 0.53157743233351,
+          "lower95": 0.432470878519285,
+          "upper95": 0.62682927633191
+        }
+      ],
+      "observed_visits": [
+        {
+          "time_months": 12,
+          "risk": 0.24705882352941178,
+          "lower95": 0.16764621161578,
+          "upper95": 0.348345527254858,
+          "events": 21,
+          "denominator": 85,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 24,
+          "risk": 0.3373493975903614,
+          "lower95": 0.24484304754653,
+          "upper95": 0.444245547156281,
+          "events": 28,
+          "denominator": 83,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 36,
+          "risk": 0.4125,
+          "lower95": 0.311058576127619,
+          "upper95": 0.521959596541098,
+          "events": 33,
+          "denominator": 80,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 48,
+          "risk": 0.4936708860759494,
+          "lower95": 0.386302721761508,
+          "upper95": 0.601626027753098,
+          "events": 39,
+          "denominator": 79,
+          "source_location": "PDF p.8, Table 2"
+        },
+        {
+          "time_months": 60,
+          "risk": 0.5384615384615384,
+          "lower95": 0.428636439403976,
+          "upper95": 0.644676036772009,
+          "events": 42,
+          "denominator": 78,
+          "source_location": "PDF p.9, Table 2"
+        }
+      ]
+    }
+  ],
+  "coefficients": {
+    "BMI": {
+      "OR": 1.1,
+      "lower95": 1.02,
+      "upper95": 1.19,
+      "endpoint": "clinical_composite_repeated_events",
+      "source_definition": "Adjusted repeated-event association for the source-defined clinical composite; BMI odds ratio per 1 kg/m²."
+    },
+    "Ba": {
+      "OR": 1.23,
+      "lower95": 1.01,
+      "upper95": 1.5,
+      "endpoint": "clinical_composite_repeated_events",
+      "source_definition": "Adjusted repeated-event association for the source-defined clinical composite; POP-Q Ba per 1 cm."
+    },
+    "age_ge60": {
+      "OR": 1.57,
+      "lower95": 0.74,
+      "upper95": 3.31,
+      "endpoint": "clinical_composite_repeated_events",
+      "source_definition": "Adjusted association for age ≥60 versus <60 in the source-defined repeated-event clinical composite."
+    },
+    "smoking": {
+      "OR": 2.88,
+      "lower95": 1.12,
+      "upper95": 7.42,
+      "endpoint": "clinical_composite_repeated_events",
+      "source_definition": "Adjusted repeated-event association for current smoking in the source-defined clinical composite."
+    },
+    "levator_avulsion": {
+      "OR": 1.5,
+      "lower95": 1.0,
+      "upper95": 2.25,
+      "endpoint": "anatomical_recurrence_native_tissue",
+      "source_definition": "Borderline pooled OR for levator defect and anatomical recurrence after native-tissue repair (n=2); component studies were not statistically significant."
+    }
+  },
+  "references": {
+    "OPTIMAL_2018": {
+      "category": "procedure",
+      "citation": "Jelovsek JE, et al. Effect of uterosacral ligament suspension vs sacrospinous ligament fixation with or without perioperative behavioral therapy for pelvic organ vaginal prolapse on surgical outcomes and prolapse symptoms at 5 years in the OPTIMAL randomized clinical trial. JAMA. 2018;319(15):1554–1565. doi:10.1001/jama.2018.2827.",
+      "url": "https://doi.org/10.1001/jama.2018.2827"
+    },
+    "SUPeR_2021": {
+      "category": "procedure",
+      "citation": "Nager CW, et al. Effect of sacrospinous hysteropexy with graft vs vaginal hysterectomy with uterosacral ligament suspension on treatment failure in women with uterovaginal prolapse: 5-year results of a randomized clinical trial. Am J Obstet Gynecol. 2021. doi:10.1016/j.ajog.2021.03.012.",
+      "url": "https://doi.org/10.1016/j.ajog.2021.03.012"
+    },
+    "MENEFEE_2024": {
+      "category": "procedure",
+      "citation": "Menefee SA, et al. Apical suspension repair for vaginal vault prolapse: a randomized clinical trial. JAMA Surg. 2024;159(8):845–855. doi:10.1001/jamasurg.2024.1206.",
+      "url": "https://doi.org/10.1001/jamasurg.2024.1206"
+    },
+    "SAVEU_2019": {
+      "category": "procedure",
+      "citation": "Schulten SFM, et al. Sacrospinous hysteropexy versus vaginal hysterectomy with uterosacral ligament suspension in women with uterine prolapse stage 2 or higher: observational follow-up of a multicentre randomised trial. BMJ. 2019;366:l5149. doi:10.1136/bmj.l5149.",
+      "url": "https://doi.org/10.1136/bmj.l5149"
+    },
+    "SAM_2023": {
+      "category": "procedure",
+      "citation": "Enklaar RA, et al. Manchester procedure vs sacrospinous hysteropexy for treatment of uterine descent: a randomized clinical trial. JAMA. 2023;330(7):626–635. doi:10.1001/jama.2023.13140.",
+      "url": "https://doi.org/10.1001/jama.2023.13140"
+    },
+    "LAVA_2020": {
+      "category": "procedure",
+      "citation": "van IJsselmuiden MN, et al. Hysteropexy in the treatment of uterine prolapse stage 2 or higher: laparoscopic sacrohysteropexy versus sacrospinous hysteropexy, a multicentre randomised controlled trial (LAVA). BJOG. 2020;127(10):1284–1293. doi:10.1111/1471-0528.16242.",
+      "url": "https://doi.org/10.1111/1471-0528.16242"
+    },
+    "SALTO2_2023": {
+      "category": "procedure",
+      "citation": "van Oudheusden AMJ, et al. Laparoscopic sacrocolpopexy versus vaginal sacrospinous fixation for vaginal vault prolapse: a randomised controlled trial and prospective cohort (SALTO-2). BJOG. 2023;130(12):1542–1551. doi:10.1111/1471-0528.17525.",
+      "url": "https://doi.org/10.1111/1471-0528.17525"
+    },
+    "Gomaa_2022": {
+      "category": "procedure",
+      "citation": "Gomaa I, et al. Comparison between abdominal sacral hysteropexy and vaginal sacrospinous hysteropexy for management of women with apical uterine descent: a randomized clinical trial. Ginekologia i Poloznictwo. 2022;17(2):1–7.",
+      "url": "https://www.ginekologiaipoloznictwo.com/articles/comparison-between-abdominal-sacral-hysteropexy-and-vaginal-sacrospinous-hysteropexy-for-management-of-women-with-apical-uterine-d-92079.html"
+    },
+    "ROSEY_HULCS_2026": {
+      "category": "procedure",
+      "citation": "Surgical success of robotic sacrocolpopexy versus uterosacral ligament suspension for the treatment of pelvic organ prolapse in the USA (ROSEY HULCS): a single-centre, parallel, randomised controlled trial. Lancet Obstet Gynaecol Womens Health. 2026;2(4):e287–e297. doi:10.1016/S3050-5038(25)00168-2.",
+      "url": "https://doi.org/10.1016/S3050-5038(25)00168-2"
+    },
+    "Veisi_2026": {
+      "category": "procedure",
+      "citation": "Veisi F, et al. Clinical comparison of sacrohysteropexy and uterosacral ligament suspension in uterovaginal prolapse repair: a randomized clinical trial. Int Urogynecol J. 2026. doi:10.1007/s00192-026-06706-4.",
+      "url": "https://doi.org/10.1007/s00192-026-06706-4"
+    },
+    "Khin_2026": {
+      "category": "procedure",
+      "citation": "Khin K, et al. Is absorbable suture non-inferior to permanent suture in sacrospinous ligament suspension? A randomized controlled trial. Int Urogynecol J. 2026;37(5):1229–1235. doi:10.1007/s00192-025-06439-w.",
+      "url": "https://doi.org/10.1007/s00192-025-06439-w"
+    },
+    "Schulten2022_RiskFactors": {
+      "category": "profile",
+      "citation": "Schulten SF, et al. Risk factors for pelvic organ prolapse recurrence after sacrospinous hysteropexy or vaginal hysterectomy with uterosacral ligament suspension. Am J Obstet Gynecol. 2022;227(2):252.e1–252.e9. doi:10.1016/j.ajog.2022.04.017.",
+      "url": "https://doi.org/10.1016/j.ajog.2022.04.017"
+    },
+    "Schulten2022_meta": {
+      "category": "profile",
+      "citation": "Schulten SFM, Claas-Quax MJ, Weemhoff M, et al. Risk factors for primary pelvic organ prolapse and prolapse recurrence: an updated systematic review and meta-analysis. Am J Obstet Gynecol. 2022;227(2):192–208. doi:10.1016/j.ajog.2022.04.046.",
+      "url": "https://doi.org/10.1016/j.ajog.2022.04.046"
+    }
+  },
+  "drawMeta": {
+    "series_ids": [
+      "MENEFEE_2024::MITT::NTR",
+      "MENEFEE_2024::MITT::SCP",
+      "MENEFEE_2024::MITT::TVM",
+      "OPTIMAL_2018::SSLF",
+      "OPTIMAL_2018::ULS",
+      "SUPeR_2021::SSH_graft",
+      "SUPeR_2021::VH_ULS"
+    ],
+    "n_draws": 2000,
+    "n_months": 60,
+    "horizon_months": [
+      12,
+      24,
+      36,
+      60
+    ],
+    "layout": "Float32 little-endian; each R matrix in column-major order"
+  }
+}

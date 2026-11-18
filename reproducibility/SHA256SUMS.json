@@ -1,0 +1,20 @@
+{
+  "index.html": "7c8d2366b1495b0152827666a05aadacef8f30e468a46ef5f60fee1f268a9f87",
+  "README.md": "28172529fd8e6c418196891e6396adb2fa008c150813a34883023f1f018fb3ca",
+  "reproducibility/calculator_data/app_data.json": "3ab72f341cd8c0c2a7a0183a73745204161c2de06d81aeeddd697a77a7b2df5b",
+  "reproducibility/calculator_data/horizon_draws_float32.bin.gz": "abd8d417a5cff74c01366e81900e909c1e148a92e883460b9af4fad74a81f9a3",
+  "reproducibility/calculator_data/trajectory_draws_float32.bin.gz": "aaf6a7606c81a51d4ab9bc1a0b71d19fedf1de2ea74030887c4b903237776db2",
+  "reproducibility/inputs/model_binomial.csv": "715cf4fa920bc92cb253dba0d1183a272445c9b3f14cebf405f21656fdb2dba4",
+  "reproducibility/inputs/rct_source_registry.csv": "edc311a6e9f83d0f3c1495ab89773cffe5c50310fd9f88155abc221ec7461b59",
+  "reproducibility/inputs/selection_manifest.csv": "bd88ea2aee563a3a1ab57a8690c5f4c1dc05f5940541d880400c111ca3b85261",
+  "reproducibility/inputs/sensitivity_binomial.csv": "e858af53780263199257936c52ddbaade6de62a59c1316b8e8c343452b1d146c",
+  "reproducibility/inputs/trajectory_input_manifest.csv": "977e5f6626faa81bcbcef6ea5fd4b196d34cf5bb81e95e8687a167ff1ad9e97a",
+  "reproducibility/inputs/trajectory_inputs.csv": "87a6306a4be247af9147b75a23d4fc36d5abf73f459f6238c33c6a4ea1b3f14e",
+  "reproducibility/model/fit_pointwise_model.R": "6dd927105c80eae277860728354288c8ff1347bf3920a02f4ede7175c1b3ab54",
+  "reproducibility/model/fit_trajectory_model.R": "fcda71810484c2118cb17b7dac96897e8c058fe39e00a4fed8d11f69c6ca6d50",
+  "reproducibility/model/trajectory_piecewise_exponential.stan": "55cc266a969c3ef6b5280daaefd517107fb7c408bdc21bd7a6632e648a08277d",
+  "reproducibility/README.md": "c61186a558d543b5637872f9d82c861bc1fa28b7c9d3b9343c1a81ee36aa53ce",
+  "reproducibility/verification/calculator_verification.json": "0fd22a2a7eb227a9f0d9625b46c3beffa13fe3eba222acbbe59fa7d0277934d4",
+  "reproducibility/verification/mobile_overlay.png": "ad439f46119be7b2431f2b1fecdd2fb8591f8ec02ae3f715c4eb0de84d5706fa",
+  "reproducibility/verification/verify_calculator.cjs": "b457e6eaf397a1a3dae0911f4d8ad44db41a577a9fe5abc53134221e4596e065"
+}
